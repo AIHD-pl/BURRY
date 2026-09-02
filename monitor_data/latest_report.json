@@ -1,19 +1,120 @@
 {
-  "timestamp": "2026-09-02T11:32:48.048001",
-  "stocks": {},
+  "timestamp": "2026-09-02T12:15:18.840116",
+  "stocks": {
+    "NVDA": {
+      "price": 217.44,
+      "change_pct": -1.51,
+      "volume_ratio": 0.73,
+      "five_day_change_pct": 2.06,
+      "alert": false
+    },
+    "META": {
+      "price": 578.54,
+      "change_pct": 1.08,
+      "volume_ratio": 0.99,
+      "five_day_change_pct": 1.49,
+      "alert": false
+    },
+    "MSFT": {
+      "price": 501.02,
+      "change_pct": -1.24,
+      "volume_ratio": 0.92,
+      "five_day_change_pct": 1.89,
+      "alert": false
+    },
+    "GOOGL": {
+      "price": 335.02,
+      "change_pct": -1.28,
+      "volume_ratio": 1.0,
+      "five_day_change_pct": -3.44,
+      "alert": false
+    },
+    "AMZN": {
+      "price": 254.92,
+      "change_pct": -1.87,
+      "volume_ratio": 0.93,
+      "five_day_change_pct": -2.35,
+      "alert": false
+    },
+    "ORCL": {
+      "price": 141.32,
+      "change_pct": -5.23,
+      "volume_ratio": 1.33,
+      "five_day_change_pct": -2.38,
+      "alert": false
+    },
+    "SOXX": {
+      "price": 500.31,
+      "change_pct": -2.1,
+      "volume_ratio": 1.14,
+      "five_day_change_pct": -2.67,
+      "alert": false
+    },
+    "MU": {
+      "price": 933.44,
+      "change_pct": -2.64,
+      "volume_ratio": 1.15,
+      "five_day_change_pct": 0.05,
+      "alert": false
+    }
+  },
   "gpu": {
     "current": {
-      "H100 SXM": 2.71,
-      "H200": 4.38,
-      "B200": 6.39,
-      "A100 SXM4": 0.99
+      "H100 SXM": 2.92,
+      "H200": 4.27,
+      "B200": 6.47,
+      "A100 SXM4": 0.96
     },
     "alerts": [],
     "history_points": 1
   },
   "sec": {
-    "filings": {},
-    "alerts": []
+    "filings": {
+      "META": [],
+      "MSFT": [],
+      "GOOGL": [],
+      "AMZN": [],
+      "ORCL": [],
+      "NVDA": [
+        {
+          "form": "10-Q",
+          "date": "2026-08-26",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+          "is_new": true,
+          "keyword_hits": [
+            "write[- ]?down"
+          ]
+        },
+        {
+          "form": "8-K",
+          "date": "2026-08-26",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/nvda-20260826.htm",
+          "is_new": true,
+          "keyword_hits": []
+        },
+        {
+          "form": "8-K",
+          "date": "2026-08-17",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm",
+          "is_new": true,
+          "keyword_hits": []
+        }
+      ],
+      "MU": [
+        {
+          "form": "8-K",
+          "date": "2026-08-26",
+          "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465926101067/tm2624017d1_8k.htm",
+          "is_new": true,
+          "keyword_hits": []
+        }
+      ]
+    },
+    "alerts": [
+      "SEC NVDA | Nowy 10-Q (2026-08-26) zawiera frazy związane z amortyzacją: write[- ]?down\nLink: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm"
+    ]
   },
-  "all_alerts": []
+  "all_alerts": [
+    "SEC NVDA | Nowy 10-Q (2026-08-26) zawiera frazy związane z amortyzacją: write[- ]?down\nLink: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm"
+  ]
 }
