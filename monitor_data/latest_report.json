@@ -1,69 +1,69 @@
 {
-  "timestamp": "2026-09-03T10:55:40.178202",
+  "timestamp": "2026-09-03T16:06:42.008873",
   "stocks": {
     "NVDA": {
-      "price": 224.41,
-      "change_pct": 3.21,
-      "volume_ratio": 1.04,
-      "five_day_change_pct": 7.04,
+      "price": 227.48,
+      "change_pct": 1.37,
+      "volume_ratio": 0.38,
+      "five_day_change_pct": -0.22,
       "alert": false
     },
     "META": {
-      "price": 592.85,
-      "change_pct": 2.47,
-      "volume_ratio": 1.04,
-      "five_day_change_pct": 2.9,
+      "price": 616.89,
+      "change_pct": 4.05,
+      "volume_ratio": 0.62,
+      "five_day_change_pct": 8.02,
       "alert": false
     },
     "MSFT": {
-      "price": 496.82,
-      "change_pct": -0.84,
-      "volume_ratio": 0.67,
-      "five_day_change_pct": 0.09,
+      "price": 513.59,
+      "change_pct": 3.38,
+      "volume_ratio": 0.45,
+      "five_day_change_pct": 1.69,
       "alert": false
     },
     "GOOGL": {
-      "price": 337.12,
-      "change_pct": 0.63,
-      "volume_ratio": 0.95,
-      "five_day_change_pct": -1.43,
+      "price": 342.52,
+      "change_pct": 1.6,
+      "volume_ratio": 0.34,
+      "five_day_change_pct": 0.55,
       "alert": false
     },
     "AMZN": {
-      "price": 254.98,
-      "change_pct": 0.02,
-      "volume_ratio": 0.71,
-      "five_day_change_pct": -2.04,
+      "price": 259.07,
+      "change_pct": 1.6,
+      "volume_ratio": 0.37,
+      "five_day_change_pct": 1.1,
       "alert": false
     },
     "ORCL": {
-      "price": 145.75,
-      "change_pct": 3.13,
-      "volume_ratio": 1.16,
-      "five_day_change_pct": -2.1,
+      "price": 153.37,
+      "change_pct": 5.23,
+      "volume_ratio": 0.53,
+      "five_day_change_pct": 0.94,
       "alert": false
     },
     "SOXX": {
-      "price": 501.44,
-      "change_pct": 0.23,
-      "volume_ratio": 0.83,
-      "five_day_change_pct": -2.71,
+      "price": 499.24,
+      "change_pct": -0.44,
+      "volume_ratio": 0.56,
+      "five_day_change_pct": -4.98,
       "alert": false
     },
     "MU": {
-      "price": 956.08,
-      "change_pct": 2.43,
-      "volume_ratio": 0.89,
-      "five_day_change_pct": 1.88,
+      "price": 941.51,
+      "change_pct": -1.52,
+      "volume_ratio": 0.57,
+      "five_day_change_pct": 0.65,
       "alert": false
     }
   },
   "gpu": {
     "current": {
-      "H100 SXM": 2.98,
-      "H200": 4.75,
-      "B200": 6.23,
-      "A100 SXM4": 1.03
+      "H100 SXM": 2.7,
+      "H200": 4.58,
+      "B200": 6.28,
+      "A100 SXM4": 1.04
     },
     "alerts": [],
     "history_points": 1
@@ -84,6 +84,13 @@
       "AMZN": [],
       "ORCL": [],
       "NVDA": [
+        {
+          "form": "8-K",
+          "date": "2026-09-03",
+          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078/nvda-20260902.htm",
+          "is_new": true,
+          "keyword_hits": []
+        },
         {
           "form": "10-Q",
           "date": "2026-08-26",
