@@ -1,69 +1,69 @@
 {
-  "timestamp": "2026-09-04T03:45:50.148108",
+  "timestamp": "2026-09-04T10:55:35.730121",
   "stocks": {
     "NVDA": {
-      "price": NaN,
-      "change_pct": NaN,
+      "price": 228.45,
+      "change_pct": 1.8,
       "volume_ratio": 0.85,
-      "five_day_change_pct": NaN,
+      "five_day_change_pct": 0.21,
       "alert": false
     },
     "META": {
-      "price": NaN,
-      "change_pct": NaN,
+      "price": 610.68,
+      "change_pct": 3.01,
       "volume_ratio": 1.22,
-      "five_day_change_pct": NaN,
+      "five_day_change_pct": 6.93,
       "alert": false
     },
     "MSFT": {
-      "price": NaN,
-      "change_pct": NaN,
+      "price": 510.12,
+      "change_pct": 2.68,
       "volume_ratio": 1.08,
-      "five_day_change_pct": NaN,
+      "five_day_change_pct": 1.0,
       "alert": false
     },
     "GOOGL": {
-      "price": NaN,
-      "change_pct": NaN,
+      "price": 342.48,
+      "change_pct": 1.59,
       "volume_ratio": 0.86,
-      "five_day_change_pct": NaN,
+      "five_day_change_pct": 0.54,
       "alert": false
     },
     "AMZN": {
-      "price": NaN,
-      "change_pct": NaN,
+      "price": 258.9,
+      "change_pct": 1.54,
       "volume_ratio": 0.81,
-      "five_day_change_pct": NaN,
+      "five_day_change_pct": 1.03,
       "alert": false
     },
     "ORCL": {
-      "price": NaN,
-      "change_pct": NaN,
+      "price": 154.04,
+      "change_pct": 5.69,
       "volume_ratio": 1.27,
-      "five_day_change_pct": NaN,
+      "five_day_change_pct": 1.38,
       "alert": false
     },
     "SOXX": {
-      "price": NaN,
-      "change_pct": NaN,
-      "volume_ratio": 0.92,
-      "five_day_change_pct": NaN,
+      "price": 502.2,
+      "change_pct": 0.15,
+      "volume_ratio": 0.93,
+      "five_day_change_pct": -4.42,
       "alert": false
     },
     "MU": {
-      "price": NaN,
-      "change_pct": NaN,
+      "price": 958.16,
+      "change_pct": 0.22,
       "volume_ratio": 1.02,
-      "five_day_change_pct": NaN,
+      "five_day_change_pct": 2.43,
       "alert": false
     }
   },
   "gpu": {
     "current": {
-      "H100 SXM": 2.84,
-      "H200": 4.86,
-      "B200": 6.36,
-      "A100 SXM4": 1.11
+      "H100 SXM": 2.97,
+      "H200": 4.44,
+      "B200": 6.4,
+      "A100 SXM4": 1.07
     },
     "alerts": [],
     "history_points": 1
