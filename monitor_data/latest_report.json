@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-06T20:12:19.343233",
+  "timestamp": "2026-09-07T03:46:55.059783",
   "stocks": {
     "NVDA": {
       "price": 230.36,
@@ -60,10 +60,10 @@
   },
   "gpu": {
     "current": {
-      "H100 SXM": 3.13,
-      "H200": 4.31,
-      "B200": 6.69,
-      "A100 SXM4": 1.02
+      "H100 SXM": 3.08,
+      "H200": 4.49,
+      "B200": 6.72,
+      "A100 SXM4": 1.03
     },
     "alerts": [],
     "history_points": 1
@@ -104,13 +104,6 @@
           "form": "8-K",
           "date": "2026-08-26",
           "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/nvda-20260826.htm",
-          "is_new": true,
-          "keyword_hits": []
-        },
-        {
-          "form": "8-K",
-          "date": "2026-08-17",
-          "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm",
           "is_new": true,
           "keyword_hits": []
         }
