@@ -1,68 +1,68 @@
 {
-  "timestamp": "2026-09-15T11:24:25.550579",
+  "timestamp": "2026-09-15T16:36:58.662845",
   "stocks": {
     "NVDA": {
-      "price": 210.96,
-      "change_pct": -3.36,
-      "volume_ratio": 1.12,
-      "five_day_change_pct": -8.32,
+      "price": 211.91,
+      "change_pct": 0.45,
+      "volume_ratio": 0.37,
+      "five_day_change_pct": -6.02,
       "alert": false
     },
     "META": {
-      "price": 665.6,
-      "change_pct": 2.71,
-      "volume_ratio": 0.99,
-      "five_day_change_pct": 7.92,
+      "price": 666.52,
+      "change_pct": 0.14,
+      "volume_ratio": 0.49,
+      "five_day_change_pct": 8.65,
       "alert": false
     },
     "MSFT": {
-      "price": 505.41,
-      "change_pct": 1.97,
-      "volume_ratio": 1.23,
-      "five_day_change_pct": 1.14,
+      "price": 501.23,
+      "change_pct": -0.83,
+      "volume_ratio": 0.37,
+      "five_day_change_pct": 1.47,
       "alert": false
     },
     "GOOGL": {
-      "price": 349.39,
-      "change_pct": 3.22,
-      "volume_ratio": 1.42,
-      "five_day_change_pct": 3.23,
+      "price": 344.59,
+      "change_pct": -1.37,
+      "volume_ratio": 0.35,
+      "five_day_change_pct": 1.84,
       "alert": false
     },
     "AMZN": {
-      "price": 253.54,
-      "change_pct": -1.26,
-      "volume_ratio": 1.13,
-      "five_day_change_pct": -1.92,
+      "price": 249.41,
+      "change_pct": -1.63,
+      "volume_ratio": 0.54,
+      "five_day_change_pct": -2.94,
       "alert": false
     },
     "ORCL": {
-      "price": 144.79,
-      "change_pct": -3.65,
-      "volume_ratio": 1.19,
-      "five_day_change_pct": -8.81,
+      "price": 142.81,
+      "change_pct": -1.37,
+      "volume_ratio": 0.42,
+      "five_day_change_pct": -12.13,
       "alert": false
     },
     "SOXX": {
-      "price": 497.4,
-      "change_pct": -5.63,
-      "volume_ratio": 1.6,
-      "five_day_change_pct": -4.32,
+      "price": 497.56,
+      "change_pct": 0.03,
+      "volume_ratio": 0.46,
+      "five_day_change_pct": -5.84,
       "alert": false
     },
     "MU": {
-      "price": 924.03,
-      "change_pct": -5.25,
-      "volume_ratio": 1.06,
-      "five_day_change_pct": -9.1,
+      "price": 923.58,
+      "change_pct": -0.05,
+      "volume_ratio": 0.44,
+      "five_day_change_pct": -7.67,
       "alert": false
     }
   },
   "gpu": {
     "current": {
-      "H100 SXM": 2.5,
-      "H200": 4.85,
-      "B200": 7.22,
+      "H100 SXM": 2.53,
+      "H200": 4.46,
+      "B200": 7.12,
       "A100 SXM4": 1.01
     },
     "alerts": [],
@@ -111,9 +111,9 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm",
           "is_new": true,
           "keyword_hits": [
-            "estimated\\s+useful\\s+lives",
+            "useful\\s+life",
             "depreciation\\s+(?:period|schedule|expense)",
-            "useful\\s+life"
+            "estimated\\s+useful\\s+lives"
           ]
         },
         {
@@ -160,12 +160,12 @@
       ]
     },
     "alerts": [
-      "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: estimated\\s+useful\\s+lives, depreciation\\s+(?:period|schedule|expense), useful\\s+life\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm",
+      "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: useful\\s+life, depreciation\\s+(?:period|schedule|expense), estimated\\s+useful\\s+lives\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm",
       "SEC NVDA | Nowy 10-Q (2026-08-26) zawiera frazy związane z amortyzacją: write[- ]?down\nLink: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm"
     ]
   },
   "all_alerts": [
-    "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: estimated\\s+useful\\s+lives, depreciation\\s+(?:period|schedule|expense), useful\\s+life\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm",
+    "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: useful\\s+life, depreciation\\s+(?:period|schedule|expense), estimated\\s+useful\\s+lives\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm",
     "SEC NVDA | Nowy 10-Q (2026-08-26) zawiera frazy związane z amortyzacją: write[- ]?down\nLink: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm"
   ]
 }
