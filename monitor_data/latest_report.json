@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-17T04:13:37.970319",
+  "timestamp": "2026-09-17T11:18:20.543449",
   "stocks": {
     "NVDA": {
       "price": 213.9,
@@ -60,10 +60,10 @@
   },
   "gpu": {
     "current": {
-      "H100 SXM": 2.69,
-      "H200": 5.15,
-      "B200": 7.06,
-      "A100 SXM4": 1.02
+      "H100 SXM": 2.93,
+      "H200": 5.09,
+      "B200": 7.14,
+      "A100 SXM4": 1.0
     },
     "alerts": [],
     "history_points": 1
@@ -111,9 +111,9 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm",
           "is_new": true,
           "keyword_hits": [
-            "useful\\s+life",
             "estimated\\s+useful\\s+lives",
-            "depreciation\\s+(?:period|schedule|expense)"
+            "depreciation\\s+(?:period|schedule|expense)",
+            "useful\\s+life"
           ]
         },
         {
@@ -136,10 +136,10 @@
       "MU": []
     },
     "alerts": [
-      "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: useful\\s+life, estimated\\s+useful\\s+lives, depreciation\\s+(?:period|schedule|expense)\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
+      "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: estimated\\s+useful\\s+lives, depreciation\\s+(?:period|schedule|expense), useful\\s+life\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
     ]
   },
   "all_alerts": [
-    "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: useful\\s+life, estimated\\s+useful\\s+lives, depreciation\\s+(?:period|schedule|expense)\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
+    "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: estimated\\s+useful\\s+lives, depreciation\\s+(?:period|schedule|expense), useful\\s+life\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
   ]
 }
