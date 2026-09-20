@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-20T04:12:55.504864",
+  "timestamp": "2026-09-20T10:57:57.353930",
   "stocks": {
     "NVDA": {
       "price": 222.27,
@@ -60,10 +60,10 @@
   },
   "gpu": {
     "current": {
-      "H100 SXM": 2.63,
-      "H200": 5.16,
-      "B200": 7.71,
-      "A100 SXM4": 0.98
+      "H100 SXM": 2.71,
+      "H200": 4.99,
+      "B200": 7.69,
+      "A100 SXM4": 0.97
     },
     "alerts": [],
     "history_points": 1
@@ -111,9 +111,9 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm",
           "is_new": true,
           "keyword_hits": [
+            "depreciation\\s+(?:period|schedule|expense)",
             "useful\\s+life",
-            "estimated\\s+useful\\s+lives",
-            "depreciation\\s+(?:period|schedule|expense)"
+            "estimated\\s+useful\\s+lives"
           ]
         },
         {
@@ -136,11 +136,11 @@
       "MU": []
     },
     "alerts": [
-      "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: useful\\s+life, estimated\\s+useful\\s+lives, depreciation\\s+(?:period|schedule|expense)\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
+      "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: depreciation\\s+(?:period|schedule|expense), useful\\s+life, estimated\\s+useful\\s+lives\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
     ]
   },
   "all_alerts": [
     "MSFT: wolumen 2.3x | Cena: $493.78",
-    "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: useful\\s+life, estimated\\s+useful\\s+lives, depreciation\\s+(?:period|schedule|expense)\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
+    "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: depreciation\\s+(?:period|schedule|expense), useful\\s+life, estimated\\s+useful\\s+lives\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
   ]
 }
