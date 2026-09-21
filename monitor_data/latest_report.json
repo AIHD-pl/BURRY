@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-21T04:10:20.289244",
+  "timestamp": "2026-09-21T12:24:23.421860",
   "stocks": {
     "NVDA": {
       "price": 222.27,
@@ -60,10 +60,10 @@
   },
   "gpu": {
     "current": {
-      "H100 SXM": 2.53,
-      "H200": 5.33,
-      "B200": 7.67,
-      "A100 SXM4": 0.99
+      "H100 SXM": 3.11,
+      "H200": 4.96,
+      "B200": 7.69,
+      "A100 SXM4": 1.0
     },
     "alerts": [],
     "history_points": 1
@@ -112,8 +112,8 @@
           "is_new": true,
           "keyword_hits": [
             "estimated\\s+useful\\s+lives",
-            "depreciation\\s+(?:period|schedule|expense)",
-            "useful\\s+life"
+            "useful\\s+life",
+            "depreciation\\s+(?:period|schedule|expense)"
           ]
         },
         {
@@ -136,11 +136,11 @@
       "MU": []
     },
     "alerts": [
-      "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: estimated\\s+useful\\s+lives, depreciation\\s+(?:period|schedule|expense), useful\\s+life\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
+      "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: estimated\\s+useful\\s+lives, useful\\s+life, depreciation\\s+(?:period|schedule|expense)\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
     ]
   },
   "all_alerts": [
     "MSFT: wolumen 2.3x | Cena: $493.78",
-    "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: estimated\\s+useful\\s+lives, depreciation\\s+(?:period|schedule|expense), useful\\s+life\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
+    "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: estimated\\s+useful\\s+lives, useful\\s+life, depreciation\\s+(?:period|schedule|expense)\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
   ]
 }
