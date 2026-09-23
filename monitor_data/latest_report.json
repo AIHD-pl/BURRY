@@ -1,69 +1,69 @@
 {
-  "timestamp": "2026-09-22T21:03:35.139343",
+  "timestamp": "2026-09-23T04:03:29.773530",
   "stocks": {
     "NVDA": {
-      "price": 228.87,
-      "change_pct": 0.66,
+      "price": NaN,
+      "change_pct": NaN,
       "volume_ratio": 0.85,
-      "five_day_change_pct": 7.87,
+      "five_day_change_pct": NaN,
       "alert": false
     },
     "META": {
-      "price": 736.59,
-      "change_pct": -0.63,
+      "price": NaN,
+      "change_pct": NaN,
       "volume_ratio": 1.13,
-      "five_day_change_pct": 9.99,
+      "five_day_change_pct": NaN,
       "alert": false
     },
     "MSFT": {
-      "price": 498.0,
-      "change_pct": -0.72,
+      "price": NaN,
+      "change_pct": NaN,
       "volume_ratio": 1.01,
-      "five_day_change_pct": 0.18,
+      "five_day_change_pct": NaN,
       "alert": false
     },
     "GOOGL": {
-      "price": 351.16,
-      "change_pct": -1.07,
+      "price": NaN,
+      "change_pct": NaN,
       "volume_ratio": 1.04,
-      "five_day_change_pct": 1.79,
+      "five_day_change_pct": NaN,
       "alert": false
     },
     "AMZN": {
-      "price": 254.98,
-      "change_pct": -1.34,
+      "price": NaN,
+      "change_pct": NaN,
       "volume_ratio": 1.18,
-      "five_day_change_pct": 2.64,
+      "five_day_change_pct": NaN,
       "alert": false
     },
     "ORCL": {
-      "price": 149.2,
-      "change_pct": 0.43,
+      "price": NaN,
+      "change_pct": NaN,
       "volume_ratio": 0.77,
-      "five_day_change_pct": 6.31,
+      "five_day_change_pct": NaN,
       "alert": false
     },
     "SOXX": {
-      "price": 572.78,
-      "change_pct": 2.4,
+      "price": NaN,
+      "change_pct": NaN,
       "volume_ratio": 0.84,
-      "five_day_change_pct": 14.82,
+      "five_day_change_pct": NaN,
       "alert": false
     },
     "MU": {
-      "price": 1096.16,
-      "change_pct": 5.0,
+      "price": NaN,
+      "change_pct": NaN,
       "volume_ratio": 1.15,
-      "five_day_change_pct": 18.17,
+      "five_day_change_pct": NaN,
       "alert": false
     }
   },
   "gpu": {
     "current": {
-      "H100 SXM": 3.01,
-      "H200": 5.1,
-      "B200": 7.89,
-      "A100 SXM4": 1.06
+      "H100 SXM": 2.88,
+      "H200": 5.12,
+      "B200": 7.96,
+      "A100 SXM4": 1.05
     },
     "alerts": [],
     "history_points": 1
@@ -71,15 +71,7 @@
   "sec": {
     "filings": {
       "META": [],
-      "MSFT": [
-        {
-          "form": "8-K",
-          "date": "2026-09-02",
-          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526380280/d291965d8k.htm",
-          "is_new": true,
-          "keyword_hits": []
-        }
-      ],
+      "MSFT": [],
       "GOOGL": [],
       "AMZN": [
         {
@@ -112,8 +104,8 @@
           "is_new": true,
           "keyword_hits": [
             "useful\\s+life",
-            "depreciation\\s+(?:period|schedule|expense)",
-            "estimated\\s+useful\\s+lives"
+            "estimated\\s+useful\\s+lives",
+            "depreciation\\s+(?:period|schedule|expense)"
           ]
         },
         {
@@ -136,10 +128,10 @@
       "MU": []
     },
     "alerts": [
-      "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: useful\\s+life, depreciation\\s+(?:period|schedule|expense), estimated\\s+useful\\s+lives\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
+      "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: useful\\s+life, estimated\\s+useful\\s+lives, depreciation\\s+(?:period|schedule|expense)\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
     ]
   },
   "all_alerts": [
-    "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: useful\\s+life, depreciation\\s+(?:period|schedule|expense), estimated\\s+useful\\s+lives\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
+    "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: useful\\s+life, estimated\\s+useful\\s+lives, depreciation\\s+(?:period|schedule|expense)\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
   ]
 }
