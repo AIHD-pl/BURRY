@@ -1,69 +1,69 @@
 {
-  "timestamp": "2026-09-25T16:53:57.370148",
+  "timestamp": "2026-09-25T21:18:14.892435",
   "stocks": {
     "NVDA": {
-      "price": 224.82,
-      "change_pct": 0.11,
-      "volume_ratio": 0.41,
-      "five_day_change_pct": 1.15,
+      "price": 225.07,
+      "change_pct": 0.22,
+      "volume_ratio": 0.81,
+      "five_day_change_pct": 1.26,
       "alert": false
     },
     "META": {
-      "price": 749.25,
-      "change_pct": -3.64,
-      "volume_ratio": 0.57,
-      "five_day_change_pct": 12.63,
+      "price": 751.66,
+      "change_pct": -3.33,
+      "volume_ratio": 0.95,
+      "five_day_change_pct": 12.99,
       "alert": false
     },
     "MSFT": {
-      "price": 518.09,
-      "change_pct": 4.05,
-      "volume_ratio": 1.03,
-      "five_day_change_pct": 4.92,
+      "price": 516.17,
+      "change_pct": 3.66,
+      "volume_ratio": 1.7,
+      "five_day_change_pct": 4.53,
       "alert": false
     },
     "GOOGL": {
-      "price": 343.64,
-      "change_pct": 0.38,
-      "volume_ratio": 0.32,
-      "five_day_change_pct": -1.69,
+      "price": 343.92,
+      "change_pct": 0.46,
+      "volume_ratio": 0.73,
+      "five_day_change_pct": -1.61,
       "alert": false
     },
     "AMZN": {
-      "price": 250.57,
-      "change_pct": 0.48,
-      "volume_ratio": 0.45,
-      "five_day_change_pct": -1.24,
+      "price": 249.67,
+      "change_pct": 0.12,
+      "volume_ratio": 0.85,
+      "five_day_change_pct": -1.59,
       "alert": false
     },
     "ORCL": {
-      "price": 138.81,
-      "change_pct": -0.52,
-      "volume_ratio": 0.35,
-      "five_day_change_pct": -5.96,
+      "price": 137.1,
+      "change_pct": -1.75,
+      "volume_ratio": 0.68,
+      "five_day_change_pct": -7.12,
       "alert": false
     },
     "SOXX": {
-      "price": 574.07,
-      "change_pct": 1.41,
-      "volume_ratio": 0.41,
-      "five_day_change_pct": 7.69,
+      "price": 572.68,
+      "change_pct": 1.17,
+      "volume_ratio": 0.61,
+      "five_day_change_pct": 7.43,
       "alert": false
     },
     "MU": {
-      "price": 1078.17,
-      "change_pct": -0.22,
-      "volume_ratio": 0.51,
-      "five_day_change_pct": 6.14,
+      "price": 1082.28,
+      "change_pct": 0.16,
+      "volume_ratio": 0.81,
+      "five_day_change_pct": 6.54,
       "alert": false
     }
   },
   "gpu": {
     "current": {
-      "H100 SXM": 2.92,
-      "H200": 5.04,
-      "B200": 8.06,
-      "A100 SXM4": 1.05
+      "H100 SXM": 2.72,
+      "H200": 4.95,
+      "B200": 8.09,
+      "A100 SXM4": 1.0
     },
     "alerts": [],
     "history_points": 1
@@ -103,8 +103,8 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm",
           "is_new": true,
           "keyword_hits": [
-            "estimated\\s+useful\\s+lives",
             "useful\\s+life",
+            "estimated\\s+useful\\s+lives",
             "depreciation\\s+(?:period|schedule|expense)"
           ]
         },
@@ -120,10 +120,10 @@
       "MU": []
     },
     "alerts": [
-      "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: estimated\\s+useful\\s+lives, useful\\s+life, depreciation\\s+(?:period|schedule|expense)\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
+      "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: useful\\s+life, estimated\\s+useful\\s+lives, depreciation\\s+(?:period|schedule|expense)\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
     ]
   },
   "all_alerts": [
-    "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: estimated\\s+useful\\s+lives, useful\\s+life, depreciation\\s+(?:period|schedule|expense)\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
+    "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: useful\\s+life, estimated\\s+useful\\s+lives, depreciation\\s+(?:period|schedule|expense)\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
   ]
 }
