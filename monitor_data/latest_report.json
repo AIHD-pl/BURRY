@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-26T04:18:11.553424",
+  "timestamp": "2026-09-26T11:04:34.637206",
   "stocks": {
     "NVDA": {
       "price": 225.07,
@@ -60,10 +60,10 @@
   },
   "gpu": {
     "current": {
-      "H100 SXM": 2.44,
-      "H200": 4.76,
-      "B200": 8.05,
-      "A100 SXM4": 0.97
+      "H100 SXM": 2.77,
+      "H200": 4.9,
+      "B200": 8.01,
+      "A100 SXM4": 0.93
     },
     "alerts": [],
     "history_points": 1
@@ -104,8 +104,8 @@
           "is_new": true,
           "keyword_hits": [
             "depreciation\\s+(?:period|schedule|expense)",
-            "useful\\s+life",
-            "estimated\\s+useful\\s+lives"
+            "estimated\\s+useful\\s+lives",
+            "useful\\s+life"
           ]
         },
         {
@@ -120,10 +120,10 @@
       "MU": []
     },
     "alerts": [
-      "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: depreciation\\s+(?:period|schedule|expense), useful\\s+life, estimated\\s+useful\\s+lives\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
+      "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: depreciation\\s+(?:period|schedule|expense), estimated\\s+useful\\s+lives, useful\\s+life\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
     ]
   },
   "all_alerts": [
-    "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: depreciation\\s+(?:period|schedule|expense), useful\\s+life, estimated\\s+useful\\s+lives\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
+    "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: depreciation\\s+(?:period|schedule|expense), estimated\\s+useful\\s+lives, useful\\s+life\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
   ]
 }
