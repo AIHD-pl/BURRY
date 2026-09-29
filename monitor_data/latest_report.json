@@ -1,69 +1,69 @@
 {
-  "timestamp": "2026-09-29T12:26:54.461688",
+  "timestamp": "2026-09-29T22:03:03.614393",
   "stocks": {
     "NVDA": {
-      "price": 228.86,
-      "change_pct": 1.68,
-      "volume_ratio": 1.37,
-      "five_day_change_pct": 0.65,
+      "price": 227.21,
+      "change_pct": -0.72,
+      "volume_ratio": 0.9,
+      "five_day_change_pct": -0.73,
       "alert": false
     },
     "META": {
-      "price": 715.62,
-      "change_pct": -4.79,
-      "volume_ratio": 1.0,
-      "five_day_change_pct": -3.46,
+      "price": 738.79,
+      "change_pct": 3.24,
+      "volume_ratio": 0.81,
+      "five_day_change_pct": 0.3,
       "alert": false
     },
     "MSFT": {
-      "price": 509.22,
-      "change_pct": -1.35,
-      "volume_ratio": 0.82,
-      "five_day_change_pct": 1.52,
+      "price": 508.96,
+      "change_pct": -0.05,
+      "volume_ratio": 0.83,
+      "five_day_change_pct": 2.2,
       "alert": false
     },
     "GOOGL": {
-      "price": 342.75,
-      "change_pct": -0.34,
-      "volume_ratio": 0.7,
-      "five_day_change_pct": -3.44,
+      "price": 340.92,
+      "change_pct": -0.53,
+      "volume_ratio": 0.75,
+      "five_day_change_pct": -2.92,
       "alert": false
     },
     "AMZN": {
-      "price": 246.15,
-      "change_pct": -1.41,
+      "price": 246.67,
+      "change_pct": 0.21,
       "volume_ratio": 0.82,
-      "five_day_change_pct": -4.76,
+      "five_day_change_pct": -3.26,
       "alert": false
     },
     "ORCL": {
-      "price": 132.6,
-      "change_pct": -3.28,
-      "volume_ratio": 1.09,
-      "five_day_change_pct": -10.74,
+      "price": 137.79,
+      "change_pct": 3.91,
+      "volume_ratio": 1.39,
+      "five_day_change_pct": -7.65,
       "alert": false
     },
     "SOXX": {
-      "price": 560.79,
-      "change_pct": -2.08,
-      "volume_ratio": 1.07,
-      "five_day_change_pct": 0.26,
+      "price": 567.44,
+      "change_pct": 1.19,
+      "volume_ratio": 0.72,
+      "five_day_change_pct": -0.93,
       "alert": false
     },
     "MU": {
-      "price": 1053.98,
-      "change_pct": -2.61,
-      "volume_ratio": 0.9,
-      "five_day_change_pct": 0.96,
+      "price": 1065.08,
+      "change_pct": 1.05,
+      "volume_ratio": 0.76,
+      "five_day_change_pct": -2.84,
       "alert": false
     }
   },
   "gpu": {
     "current": {
-      "H100 SXM": 2.74,
-      "H200": 4.85,
-      "B200": 8.12,
-      "A100 SXM4": 0.91
+      "H100 SXM": 2.78,
+      "H200": 5.2,
+      "B200": 8.13,
+      "A100 SXM4": 0.86
     },
     "alerts": [],
     "history_points": 1
@@ -103,8 +103,8 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm",
           "is_new": true,
           "keyword_hits": [
-            "useful\\s+life",
             "depreciation\\s+(?:period|schedule|expense)",
+            "useful\\s+life",
             "estimated\\s+useful\\s+lives"
           ]
         },
@@ -120,10 +120,10 @@
       "MU": []
     },
     "alerts": [
-      "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: useful\\s+life, depreciation\\s+(?:period|schedule|expense), estimated\\s+useful\\s+lives\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
+      "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: depreciation\\s+(?:period|schedule|expense), useful\\s+life, estimated\\s+useful\\s+lives\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
     ]
   },
   "all_alerts": [
-    "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: useful\\s+life, depreciation\\s+(?:period|schedule|expense), estimated\\s+useful\\s+lives\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
+    "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: depreciation\\s+(?:period|schedule|expense), useful\\s+life, estimated\\s+useful\\s+lives\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
   ]
 }
