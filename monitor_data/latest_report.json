@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-30T04:50:06.589321",
+  "timestamp": "2026-09-30T12:12:50.604574",
   "stocks": {
     "NVDA": {
       "price": 227.21,
@@ -60,10 +60,10 @@
   },
   "gpu": {
     "current": {
-      "H100 SXM": 2.61,
-      "H200": 5.46,
-      "B200": 8.13,
-      "A100 SXM4": 0.85
+      "H100 SXM": 2.87,
+      "H200": 5.58,
+      "B200": 8.06,
+      "A100 SXM4": 0.92
     },
     "alerts": [],
     "history_points": 1
@@ -96,9 +96,9 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm",
           "is_new": true,
           "keyword_hits": [
-            "depreciation\\s+(?:period|schedule|expense)",
             "useful\\s+life",
-            "estimated\\s+useful\\s+lives"
+            "estimated\\s+useful\\s+lives",
+            "depreciation\\s+(?:period|schedule|expense)"
           ]
         },
         {
@@ -113,10 +113,10 @@
       "MU": []
     },
     "alerts": [
-      "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: depreciation\\s+(?:period|schedule|expense), useful\\s+life, estimated\\s+useful\\s+lives\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
+      "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: useful\\s+life, estimated\\s+useful\\s+lives, depreciation\\s+(?:period|schedule|expense)\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
     ]
   },
   "all_alerts": [
-    "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: depreciation\\s+(?:period|schedule|expense), useful\\s+life, estimated\\s+useful\\s+lives\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
+    "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: useful\\s+life, estimated\\s+useful\\s+lives, depreciation\\s+(?:period|schedule|expense)\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
   ]
 }
