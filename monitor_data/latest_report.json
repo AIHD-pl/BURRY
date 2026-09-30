@@ -1,69 +1,69 @@
 {
-  "timestamp": "2026-09-29T22:03:03.614393",
+  "timestamp": "2026-09-30T04:50:06.589321",
   "stocks": {
     "NVDA": {
       "price": 227.21,
       "change_pct": -0.72,
-      "volume_ratio": 0.9,
+      "volume_ratio": 0.92,
       "five_day_change_pct": -0.73,
       "alert": false
     },
     "META": {
       "price": 738.79,
       "change_pct": 3.24,
-      "volume_ratio": 0.81,
+      "volume_ratio": 0.82,
       "five_day_change_pct": 0.3,
       "alert": false
     },
     "MSFT": {
       "price": 508.96,
       "change_pct": -0.05,
-      "volume_ratio": 0.83,
+      "volume_ratio": 0.88,
       "five_day_change_pct": 2.2,
       "alert": false
     },
     "GOOGL": {
       "price": 340.92,
       "change_pct": -0.53,
-      "volume_ratio": 0.75,
+      "volume_ratio": 0.77,
       "five_day_change_pct": -2.92,
       "alert": false
     },
     "AMZN": {
       "price": 246.67,
       "change_pct": 0.21,
-      "volume_ratio": 0.82,
+      "volume_ratio": 0.88,
       "five_day_change_pct": -3.26,
       "alert": false
     },
     "ORCL": {
       "price": 137.79,
       "change_pct": 3.91,
-      "volume_ratio": 1.39,
+      "volume_ratio": 1.4,
       "five_day_change_pct": -7.65,
       "alert": false
     },
     "SOXX": {
       "price": 567.44,
       "change_pct": 1.19,
-      "volume_ratio": 0.72,
+      "volume_ratio": 0.73,
       "five_day_change_pct": -0.93,
       "alert": false
     },
     "MU": {
       "price": 1065.08,
       "change_pct": 1.05,
-      "volume_ratio": 0.76,
+      "volume_ratio": 0.79,
       "five_day_change_pct": -2.84,
       "alert": false
     }
   },
   "gpu": {
     "current": {
-      "H100 SXM": 2.78,
-      "H200": 5.2,
+      "H100 SXM": 2.61,
+      "H200": 5.46,
       "B200": 8.13,
-      "A100 SXM4": 0.86
+      "A100 SXM4": 0.85
     },
     "alerts": [],
     "history_points": 1
@@ -78,13 +78,6 @@
           "form": "8-K",
           "date": "2026-09-14",
           "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926107526/tm2624614d5_8k.htm",
-          "is_new": true,
-          "keyword_hits": []
-        },
-        {
-          "form": "8-K",
-          "date": "2026-09-09",
-          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000036/amzn-20260908.htm",
           "is_new": true,
           "keyword_hits": []
         }
