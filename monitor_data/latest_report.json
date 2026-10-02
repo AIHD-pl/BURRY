@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-10-01T22:29:55.720454",
+  "timestamp": "2026-10-02T04:52:46.784795",
   "stocks": {
     "NVDA": {
       "price": 230.86,
       "change_pct": 1.09,
-      "volume_ratio": 0.86,
+      "volume_ratio": 0.87,
       "five_day_change_pct": 2.8,
       "alert": false
     },
     "META": {
       "price": 725.93,
       "change_pct": 0.1,
-      "volume_ratio": 0.41,
+      "volume_ratio": 0.42,
       "five_day_change_pct": -6.64,
       "alert": false
     },
     "MSFT": {
       "price": 512.8,
       "change_pct": -0.02,
-      "volume_ratio": 0.73,
+      "volume_ratio": 0.77,
       "five_day_change_pct": 2.99,
       "alert": false
     },
@@ -32,14 +32,14 @@
     "AMZN": {
       "price": 248.23,
       "change_pct": -0.37,
-      "volume_ratio": 0.82,
+      "volume_ratio": 0.84,
       "five_day_change_pct": -0.46,
       "alert": false
     },
     "ORCL": {
       "price": 138.07,
       "change_pct": 0.56,
-      "volume_ratio": 0.69,
+      "volume_ratio": 0.76,
       "five_day_change_pct": -1.05,
       "alert": false
     },
@@ -53,17 +53,17 @@
     "MU": {
       "price": 1097.39,
       "change_pct": 3.03,
-      "volume_ratio": 1.75,
+      "volume_ratio": 1.78,
       "five_day_change_pct": 1.56,
       "alert": false
     }
   },
   "gpu": {
     "current": {
-      "H100 SXM": 2.9,
-      "H200": 6.04,
-      "B200": 7.87,
-      "A100 SXM4": 0.95
+      "H100 SXM": 2.55,
+      "H200": 6.2,
+      "B200": 7.9,
+      "A100 SXM4": 0.92
     },
     "alerts": [],
     "history_points": 1
@@ -89,17 +89,6 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389753/d20034d8k.htm",
           "is_new": true,
           "keyword_hits": []
-        },
-        {
-          "form": "10-Q",
-          "date": "2026-09-11",
-          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm",
-          "is_new": true,
-          "keyword_hits": [
-            "estimated\\s+useful\\s+lives",
-            "useful\\s+life",
-            "depreciation\\s+(?:period|schedule|expense)"
-          ]
         }
       ],
       "NVDA": [],
@@ -113,11 +102,7 @@
         }
       ]
     },
-    "alerts": [
-      "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: estimated\\s+useful\\s+lives, useful\\s+life, depreciation\\s+(?:period|schedule|expense)\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
-    ]
+    "alerts": []
   },
-  "all_alerts": [
-    "SEC ORCL | Nowy 10-Q (2026-09-11) zawiera frazy związane z amortyzacją: estimated\\s+useful\\s+lives, useful\\s+life, depreciation\\s+(?:period|schedule|expense)\nLink: https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm"
-  ]
+  "all_alerts": []
 }
