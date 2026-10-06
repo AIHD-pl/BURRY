@@ -1,69 +1,69 @@
 {
-  "timestamp": "2026-10-06T13:03:15.207415",
+  "timestamp": "2026-10-06T22:31:05.182450",
   "stocks": {
     "NVDA": {
-      "price": 238.9,
-      "change_pct": 2.12,
-      "volume_ratio": 1.2,
-      "five_day_change_pct": 4.39,
+      "price": 239.24,
+      "change_pct": 0.14,
+      "volume_ratio": 0.92,
+      "five_day_change_pct": 5.29,
       "alert": false
     },
     "META": {
-      "price": 741.9,
-      "change_pct": 1.9,
-      "volume_ratio": 0.63,
-      "five_day_change_pct": 3.67,
+      "price": 738.88,
+      "change_pct": -0.41,
+      "volume_ratio": 0.54,
+      "five_day_change_pct": 0.01,
       "alert": false
     },
     "MSFT": {
-      "price": 525.18,
-      "change_pct": 1.48,
-      "volume_ratio": 1.19,
-      "five_day_change_pct": 3.13,
+      "price": 529.3,
+      "change_pct": 0.78,
+      "volume_ratio": 0.91,
+      "five_day_change_pct": 4.0,
       "alert": false
     },
     "GOOGL": {
-      "price": 346.47,
-      "change_pct": 0.86,
-      "volume_ratio": 0.94,
-      "five_day_change_pct": 1.09,
+      "price": 347.68,
+      "change_pct": 0.35,
+      "volume_ratio": 0.68,
+      "five_day_change_pct": 1.98,
       "alert": false
     },
     "AMZN": {
-      "price": 251.4,
-      "change_pct": -0.05,
-      "volume_ratio": 1.07,
-      "five_day_change_pct": 2.13,
+      "price": 256.29,
+      "change_pct": 1.95,
+      "volume_ratio": 0.91,
+      "five_day_change_pct": 3.9,
       "alert": false
     },
     "ORCL": {
-      "price": 142.48,
-      "change_pct": 0.13,
-      "volume_ratio": 0.54,
-      "five_day_change_pct": 7.45,
+      "price": 144.77,
+      "change_pct": 1.61,
+      "volume_ratio": 0.63,
+      "five_day_change_pct": 5.07,
       "alert": false
     },
     "SOXX": {
-      "price": 589.51,
-      "change_pct": 0.1,
-      "volume_ratio": 0.67,
-      "five_day_change_pct": 5.12,
+      "price": 589.45,
+      "change_pct": -0.01,
+      "volume_ratio": 0.73,
+      "five_day_change_pct": 3.88,
       "alert": false
     },
     "MU": {
-      "price": 1063.96,
-      "change_pct": -1.02,
-      "volume_ratio": 0.68,
-      "five_day_change_pct": 0.95,
+      "price": 1045.56,
+      "change_pct": -1.73,
+      "volume_ratio": 0.82,
+      "five_day_change_pct": -1.83,
       "alert": false
     }
   },
   "gpu": {
     "current": {
-      "H100 SXM": 2.57,
-      "H200": 4.94,
-      "B200": 7.57,
-      "A100 SXM4": 0.91
+      "H100 SXM": 2.92,
+      "H200": 5.06,
+      "B200": 7.59,
+      "A100 SXM4": 0.89
     },
     "alerts": [],
     "history_points": 1
