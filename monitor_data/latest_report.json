@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-08T23:07:48.990503",
+  "timestamp": "2026-10-09T05:23:56.480404",
   "stocks": {
     "NVDA": {
       "price": 230.48,
@@ -18,7 +18,7 @@
     "MSFT": {
       "price": 522.61,
       "change_pct": -1.35,
-      "volume_ratio": 0.85,
+      "volume_ratio": 0.87,
       "five_day_change_pct": 1.91,
       "alert": false
     },
@@ -32,38 +32,38 @@
     "AMZN": {
       "price": 254.06,
       "change_pct": -2.25,
-      "volume_ratio": 1.05,
+      "volume_ratio": 1.09,
       "five_day_change_pct": 2.35,
       "alert": false
     },
     "ORCL": {
       "price": 135.69,
       "change_pct": -5.48,
-      "volume_ratio": 1.56,
+      "volume_ratio": 1.57,
       "five_day_change_pct": -1.72,
       "alert": false
     },
     "SOXX": {
       "price": 563.28,
       "change_pct": -3.35,
-      "volume_ratio": 1.91,
+      "volume_ratio": 1.93,
       "five_day_change_pct": -2.26,
       "alert": false
     },
     "MU": {
       "price": 1035.84,
       "change_pct": -4.79,
-      "volume_ratio": 1.11,
+      "volume_ratio": 1.13,
       "five_day_change_pct": -5.61,
       "alert": false
     }
   },
   "gpu": {
     "current": {
-      "H100 SXM": 2.65,
-      "H200": 5.82,
-      "B200": 7.53,
-      "A100 SXM4": 0.92
+      "H100 SXM": 2.78,
+      "H200": 5.57,
+      "B200": 7.47,
+      "A100 SXM4": 0.93
     },
     "alerts": [],
     "history_points": 1
