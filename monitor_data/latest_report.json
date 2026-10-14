@@ -1,69 +1,69 @@
 {
-  "timestamp": "2026-10-14T16:51:39.443608",
+  "timestamp": "2026-10-14T21:25:44.350288",
   "stocks": {
     "NVDA": {
-      "price": 222.13,
-      "change_pct": -2.8,
-      "volume_ratio": 0.5,
-      "five_day_change_pct": -6.46,
-      "alert": false
-    },
-    "META": {
-      "price": 737.96,
-      "change_pct": -3.22,
-      "volume_ratio": 0.56,
-      "five_day_change_pct": 2.31,
-      "alert": false
-    },
-    "MSFT": {
-      "price": 536.92,
-      "change_pct": -1.2,
-      "volume_ratio": 0.41,
-      "five_day_change_pct": 1.35,
-      "alert": false
-    },
-    "GOOGL": {
-      "price": 351.05,
-      "change_pct": -0.77,
-      "volume_ratio": 0.52,
-      "five_day_change_pct": 0.16,
-      "alert": false
-    },
-    "AMZN": {
-      "price": 254.39,
-      "change_pct": -1.62,
-      "volume_ratio": 0.43,
-      "five_day_change_pct": -2.13,
-      "alert": false
-    },
-    "ORCL": {
-      "price": 133.29,
-      "change_pct": -6.92,
-      "volume_ratio": 1.13,
+      "price": 221.3,
+      "change_pct": -3.16,
+      "volume_ratio": 1.17,
       "five_day_change_pct": -6.81,
       "alert": false
     },
+    "META": {
+      "price": 737.54,
+      "change_pct": -3.27,
+      "volume_ratio": 1.0,
+      "five_day_change_pct": 2.25,
+      "alert": false
+    },
+    "MSFT": {
+      "price": 533.69,
+      "change_pct": -1.8,
+      "volume_ratio": 1.06,
+      "five_day_change_pct": 0.74,
+      "alert": false
+    },
+    "GOOGL": {
+      "price": 347.64,
+      "change_pct": -1.74,
+      "volume_ratio": 1.19,
+      "five_day_change_pct": -0.82,
+      "alert": false
+    },
+    "AMZN": {
+      "price": 254.08,
+      "change_pct": -1.74,
+      "volume_ratio": 1.0,
+      "five_day_change_pct": -2.25,
+      "alert": false
+    },
+    "ORCL": {
+      "price": 130.55,
+      "change_pct": -8.83,
+      "volume_ratio": 1.98,
+      "five_day_change_pct": -8.73,
+      "alert": true
+    },
     "SOXX": {
-      "price": 523.29,
-      "change_pct": -3.79,
-      "volume_ratio": 0.8,
-      "five_day_change_pct": -10.21,
+      "price": 519.42,
+      "change_pct": -4.5,
+      "volume_ratio": 1.64,
+      "five_day_change_pct": -10.88,
       "alert": false
     },
     "MU": {
-      "price": 929.25,
-      "change_pct": -2.51,
-      "volume_ratio": 0.52,
-      "five_day_change_pct": -14.59,
+      "price": 914.13,
+      "change_pct": -4.1,
+      "volume_ratio": 0.98,
+      "five_day_change_pct": -15.98,
       "alert": false
     }
   },
   "gpu": {
     "current": {
-      "H100 SXM": 2.92,
-      "H200": 6.35,
-      "B200": 7.88,
-      "A100 SXM4": 0.98
+      "H100 SXM": 3.39,
+      "H200": 6.03,
+      "B200": 7.9,
+      "A100 SXM4": 0.96
     },
     "alerts": [],
     "history_points": 1
@@ -102,6 +102,7 @@
     ]
   },
   "all_alerts": [
+    "ORCL: ruch -8.8% | Cena: $130.55",
     "SEC MU | Nowy 10-K (2026-10-09) zawiera frazy związane z amortyzacją: depreciation\\s+(?:period|schedule|expense), estimated\\s+useful\\s+lives, write[- ]?down\nLink: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
   ]
 }
