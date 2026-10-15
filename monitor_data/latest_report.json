@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-14T21:25:44.350288",
+  "timestamp": "2026-10-15T03:56:20.918591",
   "stocks": {
     "NVDA": {
       "price": 221.3,
@@ -11,59 +11,59 @@
     "META": {
       "price": 737.54,
       "change_pct": -3.27,
-      "volume_ratio": 1.0,
+      "volume_ratio": 1.02,
       "five_day_change_pct": 2.25,
       "alert": false
     },
     "MSFT": {
       "price": 533.69,
       "change_pct": -1.8,
-      "volume_ratio": 1.06,
+      "volume_ratio": 1.09,
       "five_day_change_pct": 0.74,
       "alert": false
     },
     "GOOGL": {
       "price": 347.64,
       "change_pct": -1.74,
-      "volume_ratio": 1.19,
+      "volume_ratio": 1.22,
       "five_day_change_pct": -0.82,
       "alert": false
     },
     "AMZN": {
       "price": 254.08,
       "change_pct": -1.74,
-      "volume_ratio": 1.0,
+      "volume_ratio": 1.03,
       "five_day_change_pct": -2.25,
       "alert": false
     },
     "ORCL": {
       "price": 130.55,
       "change_pct": -8.83,
-      "volume_ratio": 1.98,
+      "volume_ratio": 2.03,
       "five_day_change_pct": -8.73,
       "alert": true
     },
     "SOXX": {
       "price": 519.42,
       "change_pct": -4.5,
-      "volume_ratio": 1.64,
+      "volume_ratio": 1.67,
       "five_day_change_pct": -10.88,
       "alert": false
     },
     "MU": {
       "price": 914.13,
-      "change_pct": -4.1,
-      "volume_ratio": 0.98,
-      "five_day_change_pct": -15.98,
+      "change_pct": -4.08,
+      "volume_ratio": 0.99,
+      "five_day_change_pct": -15.97,
       "alert": false
     }
   },
   "gpu": {
     "current": {
-      "H100 SXM": 3.39,
-      "H200": 6.03,
-      "B200": 7.9,
-      "A100 SXM4": 0.96
+      "H100 SXM": 3.48,
+      "H200": 6.65,
+      "B200": 7.91,
+      "A100 SXM4": 0.95
     },
     "alerts": [],
     "history_points": 1
@@ -83,9 +83,9 @@
           "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
           "is_new": true,
           "keyword_hits": [
-            "depreciation\\s+(?:period|schedule|expense)",
             "estimated\\s+useful\\s+lives",
-            "write[- ]?down"
+            "write[- ]?down",
+            "depreciation\\s+(?:period|schedule|expense)"
           ]
         },
         {
@@ -98,11 +98,11 @@
       ]
     },
     "alerts": [
-      "SEC MU | Nowy 10-K (2026-10-09) zawiera frazy związane z amortyzacją: depreciation\\s+(?:period|schedule|expense), estimated\\s+useful\\s+lives, write[- ]?down\nLink: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
+      "SEC MU | Nowy 10-K (2026-10-09) zawiera frazy związane z amortyzacją: estimated\\s+useful\\s+lives, write[- ]?down, depreciation\\s+(?:period|schedule|expense)\nLink: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
     ]
   },
   "all_alerts": [
     "ORCL: ruch -8.8% | Cena: $130.55",
-    "SEC MU | Nowy 10-K (2026-10-09) zawiera frazy związane z amortyzacją: depreciation\\s+(?:period|schedule|expense), estimated\\s+useful\\s+lives, write[- ]?down\nLink: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
+    "SEC MU | Nowy 10-K (2026-10-09) zawiera frazy związane z amortyzacją: estimated\\s+useful\\s+lives, write[- ]?down, depreciation\\s+(?:period|schedule|expense)\nLink: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
   ]
 }
