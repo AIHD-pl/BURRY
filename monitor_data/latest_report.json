@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-16T03:52:36.457878",
+  "timestamp": "2026-10-16T11:01:46.773543",
   "stocks": {
     "NVDA": {
       "price": 217.23,
@@ -60,10 +60,10 @@
   },
   "gpu": {
     "current": {
-      "H100 SXM": 2.65,
-      "H200": 6.22,
+      "H100 SXM": 2.52,
+      "H200": 6.16,
       "B200": 7.93,
-      "A100 SXM4": 0.96
+      "A100 SXM4": 0.94
     },
     "alerts": [],
     "history_points": 1
@@ -83,8 +83,8 @@
           "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
           "is_new": true,
           "keyword_hits": [
-            "depreciation\\s+(?:period|schedule|expense)",
             "write[- ]?down",
+            "depreciation\\s+(?:period|schedule|expense)",
             "estimated\\s+useful\\s+lives"
           ]
         },
@@ -98,11 +98,11 @@
       ]
     },
     "alerts": [
-      "SEC MU | Nowy 10-K (2026-10-09) zawiera frazy związane z amortyzacją: depreciation\\s+(?:period|schedule|expense), write[- ]?down, estimated\\s+useful\\s+lives\nLink: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
+      "SEC MU | Nowy 10-K (2026-10-09) zawiera frazy związane z amortyzacją: write[- ]?down, depreciation\\s+(?:period|schedule|expense), estimated\\s+useful\\s+lives\nLink: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
     ]
   },
   "all_alerts": [
     "SOXX: wolumen 2.4x | Cena: $514.71",
-    "SEC MU | Nowy 10-K (2026-10-09) zawiera frazy związane z amortyzacją: depreciation\\s+(?:period|schedule|expense), write[- ]?down, estimated\\s+useful\\s+lives\nLink: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
+    "SEC MU | Nowy 10-K (2026-10-09) zawiera frazy związane z amortyzacją: write[- ]?down, depreciation\\s+(?:period|schedule|expense), estimated\\s+useful\\s+lives\nLink: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
   ]
 }
