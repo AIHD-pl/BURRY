@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-20T04:10:51.328537",
+  "timestamp": "2026-10-20T11:11:02.085334",
   "stocks": {
     "NVDA": {
       "price": 217.09,
@@ -60,10 +60,10 @@
   },
   "gpu": {
     "current": {
-      "H100 SXM": 2.9,
-      "H200": 6.17,
-      "B200": 8.43,
-      "A100 SXM4": 0.98
+      "H100 SXM": 3.17,
+      "H200": 6.31,
+      "B200": 9.32,
+      "A100 SXM4": 1.06
     },
     "alerts": [],
     "history_points": 1
@@ -84,8 +84,8 @@
           "is_new": true,
           "keyword_hits": [
             "estimated\\s+useful\\s+lives",
-            "write[- ]?down",
-            "depreciation\\s+(?:period|schedule|expense)"
+            "depreciation\\s+(?:period|schedule|expense)",
+            "write[- ]?down"
           ]
         },
         {
@@ -98,10 +98,10 @@
       ]
     },
     "alerts": [
-      "SEC MU | Nowy 10-K (2026-10-09) zawiera frazy związane z amortyzacją: estimated\\s+useful\\s+lives, write[- ]?down, depreciation\\s+(?:period|schedule|expense)\nLink: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
+      "SEC MU | Nowy 10-K (2026-10-09) zawiera frazy związane z amortyzacją: estimated\\s+useful\\s+lives, depreciation\\s+(?:period|schedule|expense), write[- ]?down\nLink: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
     ]
   },
   "all_alerts": [
-    "SEC MU | Nowy 10-K (2026-10-09) zawiera frazy związane z amortyzacją: estimated\\s+useful\\s+lives, write[- ]?down, depreciation\\s+(?:period|schedule|expense)\nLink: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
+    "SEC MU | Nowy 10-K (2026-10-09) zawiera frazy związane z amortyzacją: estimated\\s+useful\\s+lives, depreciation\\s+(?:period|schedule|expense), write[- ]?down\nLink: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
   ]
 }
