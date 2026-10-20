@@ -1,69 +1,69 @@
 {
-  "timestamp": "2026-10-20T11:11:02.085334",
+  "timestamp": "2026-10-20T16:35:54.384032",
   "stocks": {
     "NVDA": {
-      "price": 217.09,
-      "change_pct": 1.38,
-      "volume_ratio": 0.97,
-      "five_day_change_pct": -4.08,
+      "price": 217.33,
+      "change_pct": 0.11,
+      "volume_ratio": 0.43,
+      "five_day_change_pct": -4.9,
       "alert": false
     },
     "META": {
-      "price": 705.44,
-      "change_pct": -0.55,
-      "volume_ratio": 0.94,
-      "five_day_change_pct": -5.05,
+      "price": 691.1,
+      "change_pct": -2.03,
+      "volume_ratio": 0.49,
+      "five_day_change_pct": -9.36,
       "alert": false
     },
     "MSFT": {
-      "price": 533.52,
-      "change_pct": 0.84,
-      "volume_ratio": 0.85,
-      "five_day_change_pct": -1.41,
+      "price": 531.79,
+      "change_pct": -0.32,
+      "volume_ratio": 0.25,
+      "five_day_change_pct": -2.15,
       "alert": false
     },
     "GOOGL": {
-      "price": 344.18,
-      "change_pct": 1.05,
-      "volume_ratio": 0.89,
-      "five_day_change_pct": -2.42,
+      "price": 341.74,
+      "change_pct": -0.71,
+      "volume_ratio": 0.31,
+      "five_day_change_pct": -3.4,
       "alert": false
     },
     "AMZN": {
-      "price": 262.45,
-      "change_pct": 4.98,
-      "volume_ratio": 1.65,
-      "five_day_change_pct": 1.13,
+      "price": 262.85,
+      "change_pct": 0.15,
+      "volume_ratio": 0.5,
+      "five_day_change_pct": 1.65,
       "alert": false
     },
     "ORCL": {
-      "price": 129.59,
-      "change_pct": 1.06,
-      "volume_ratio": 0.79,
-      "five_day_change_pct": -5.68,
+      "price": 132.38,
+      "change_pct": 2.15,
+      "volume_ratio": 0.39,
+      "five_day_change_pct": -7.56,
       "alert": false
     },
     "SOXX": {
-      "price": 501.93,
-      "change_pct": 1.73,
-      "volume_ratio": 1.01,
-      "five_day_change_pct": -7.88,
+      "price": 505.81,
+      "change_pct": 0.77,
+      "volume_ratio": 0.66,
+      "five_day_change_pct": -7.0,
       "alert": false
     },
     "MU": {
-      "price": 904.9,
-      "change_pct": 2.97,
-      "volume_ratio": 0.91,
-      "five_day_change_pct": -8.49,
+      "price": 913.39,
+      "change_pct": 0.94,
+      "volume_ratio": 0.41,
+      "five_day_change_pct": -4.16,
       "alert": false
     }
   },
   "gpu": {
     "current": {
-      "H100 SXM": 3.17,
-      "H200": 6.31,
+      "H100 SXM": 3.24,
+      "H200": 6.17,
       "B200": 9.32,
-      "A100 SXM4": 1.06
+      "A100 SXM4": 1.07
     },
     "alerts": [],
     "history_points": 1
@@ -83,9 +83,9 @@
           "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
           "is_new": true,
           "keyword_hits": [
-            "estimated\\s+useful\\s+lives",
             "depreciation\\s+(?:period|schedule|expense)",
-            "write[- ]?down"
+            "write[- ]?down",
+            "estimated\\s+useful\\s+lives"
           ]
         },
         {
@@ -98,10 +98,10 @@
       ]
     },
     "alerts": [
-      "SEC MU | Nowy 10-K (2026-10-09) zawiera frazy związane z amortyzacją: estimated\\s+useful\\s+lives, depreciation\\s+(?:period|schedule|expense), write[- ]?down\nLink: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
+      "SEC MU | Nowy 10-K (2026-10-09) zawiera frazy związane z amortyzacją: depreciation\\s+(?:period|schedule|expense), write[- ]?down, estimated\\s+useful\\s+lives\nLink: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
     ]
   },
   "all_alerts": [
-    "SEC MU | Nowy 10-K (2026-10-09) zawiera frazy związane z amortyzacją: estimated\\s+useful\\s+lives, depreciation\\s+(?:period|schedule|expense), write[- ]?down\nLink: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
+    "SEC MU | Nowy 10-K (2026-10-09) zawiera frazy związane z amortyzacją: depreciation\\s+(?:period|schedule|expense), write[- ]?down, estimated\\s+useful\\s+lives\nLink: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
   ]
 }
