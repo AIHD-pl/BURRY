@@ -1,76 +1,84 @@
 {
-  "timestamp": "2026-10-21T16:53:54.766065",
+  "timestamp": "2026-10-21T21:25:55.940694",
   "stocks": {
     "NVDA": {
-      "price": 221.12,
-      "change_pct": 2.15,
-      "volume_ratio": 0.45,
-      "five_day_change_pct": -0.08,
+      "price": 221.97,
+      "change_pct": 2.54,
+      "volume_ratio": 0.86,
+      "five_day_change_pct": 0.3,
       "alert": false
     },
     "META": {
-      "price": 709.41,
-      "change_pct": 2.18,
-      "volume_ratio": 0.46,
-      "five_day_change_pct": -3.81,
+      "price": 697.52,
+      "change_pct": 0.47,
+      "volume_ratio": 1.46,
+      "five_day_change_pct": -5.43,
       "alert": false
     },
     "MSFT": {
-      "price": 532.49,
-      "change_pct": 0.12,
-      "volume_ratio": 0.29,
-      "five_day_change_pct": -0.22,
+      "price": 532.95,
+      "change_pct": 0.2,
+      "volume_ratio": 0.67,
+      "five_day_change_pct": -0.14,
       "alert": false
     },
     "GOOGL": {
-      "price": 333.54,
-      "change_pct": -1.98,
-      "volume_ratio": 0.74,
-      "five_day_change_pct": -4.06,
+      "price": 334.76,
+      "change_pct": -1.62,
+      "volume_ratio": 1.29,
+      "five_day_change_pct": -3.7,
       "alert": false
     },
     "AMZN": {
-      "price": 263.22,
-      "change_pct": 0.22,
-      "volume_ratio": 0.44,
-      "five_day_change_pct": 3.6,
+      "price": 262.37,
+      "change_pct": -0.1,
+      "volume_ratio": 0.85,
+      "five_day_change_pct": 3.26,
       "alert": false
     },
     "ORCL": {
-      "price": 129.95,
-      "change_pct": -0.91,
-      "volume_ratio": 0.42,
-      "five_day_change_pct": -0.46,
+      "price": 129.13,
+      "change_pct": -1.53,
+      "volume_ratio": 0.82,
+      "five_day_change_pct": -1.09,
       "alert": false
     },
     "SOXX": {
-      "price": 510.88,
-      "change_pct": 2.17,
-      "volume_ratio": 0.46,
-      "five_day_change_pct": -1.64,
+      "price": 510.36,
+      "change_pct": 2.07,
+      "volume_ratio": 0.79,
+      "five_day_change_pct": -1.74,
       "alert": false
     },
     "MU": {
-      "price": 914.92,
-      "change_pct": 2.1,
-      "volume_ratio": 0.46,
-      "five_day_change_pct": 0.09,
+      "price": 913.67,
+      "change_pct": 1.96,
+      "volume_ratio": 0.76,
+      "five_day_change_pct": -0.05,
       "alert": false
     }
   },
   "gpu": {
     "current": {
-      "H100 SXM": 2.99,
-      "H200": 5.93,
-      "B200": 9.34,
-      "A100 SXM4": 1.07
+      "H100 SXM": 3.54,
+      "H200": 6.08,
+      "B200": 9.35,
+      "A100 SXM4": 1.05
     },
     "alerts": [],
     "history_points": 1
   },
   "sec": {
     "filings": {
-      "META": [],
+      "META": [
+        {
+          "form": "8-K",
+          "date": "2026-10-21",
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-20261019.htm",
+          "is_new": true,
+          "keyword_hits": []
+        }
+      ],
       "MSFT": [],
       "GOOGL": [],
       "AMZN": [],
@@ -83,18 +91,18 @@
           "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
           "is_new": true,
           "keyword_hits": [
-            "depreciation\\s+(?:period|schedule|expense)",
             "estimated\\s+useful\\s+lives",
+            "depreciation\\s+(?:period|schedule|expense)",
             "write[- ]?down"
           ]
         }
       ]
     },
     "alerts": [
-      "SEC MU | Nowy 10-K (2026-10-09) zawiera frazy związane z amortyzacją: depreciation\\s+(?:period|schedule|expense), estimated\\s+useful\\s+lives, write[- ]?down\nLink: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
+      "SEC MU | Nowy 10-K (2026-10-09) zawiera frazy związane z amortyzacją: estimated\\s+useful\\s+lives, depreciation\\s+(?:period|schedule|expense), write[- ]?down\nLink: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
     ]
   },
   "all_alerts": [
-    "SEC MU | Nowy 10-K (2026-10-09) zawiera frazy związane z amortyzacją: depreciation\\s+(?:period|schedule|expense), estimated\\s+useful\\s+lives, write[- ]?down\nLink: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
+    "SEC MU | Nowy 10-K (2026-10-09) zawiera frazy związane z amortyzacją: estimated\\s+useful\\s+lives, depreciation\\s+(?:period|schedule|expense), write[- ]?down\nLink: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
   ]
 }
