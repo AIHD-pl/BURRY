@@ -1,69 +1,69 @@
 {
-  "timestamp": "2026-10-22T16:53:55.155415",
+  "timestamp": "2026-10-22T21:20:56.515533",
   "stocks": {
     "NVDA": {
-      "price": 212.56,
-      "change_pct": -4.24,
-      "volume_ratio": 0.62,
-      "five_day_change_pct": -2.15,
+      "price": 212.21,
+      "change_pct": -4.4,
+      "volume_ratio": 1.28,
+      "five_day_change_pct": -2.31,
       "alert": false
     },
     "META": {
-      "price": 645.97,
-      "change_pct": -7.39,
-      "volume_ratio": 1.33,
-      "five_day_change_pct": -12.32,
-      "alert": true
+      "price": 648.85,
+      "change_pct": -6.98,
+      "volume_ratio": 2.06,
+      "five_day_change_pct": -11.93,
+      "alert": false
     },
     "MSFT": {
-      "price": 524.32,
-      "change_pct": -1.62,
-      "volume_ratio": 0.4,
-      "five_day_change_pct": -2.8,
+      "price": 521.08,
+      "change_pct": -2.23,
+      "volume_ratio": 1.06,
+      "five_day_change_pct": -3.4,
       "alert": false
     },
     "GOOGL": {
-      "price": 326.38,
-      "change_pct": -2.5,
-      "volume_ratio": 0.52,
-      "five_day_change_pct": -6.54,
+      "price": 324.22,
+      "change_pct": -3.15,
+      "volume_ratio": 1.2,
+      "five_day_change_pct": -7.16,
       "alert": false
     },
     "AMZN": {
-      "price": 251.46,
-      "change_pct": -4.16,
-      "volume_ratio": 0.62,
-      "five_day_change_pct": -1.3,
+      "price": 250.38,
+      "change_pct": -4.57,
+      "volume_ratio": 1.37,
+      "five_day_change_pct": -1.72,
       "alert": false
     },
     "ORCL": {
-      "price": 124.85,
-      "change_pct": -3.31,
-      "volume_ratio": 0.45,
-      "five_day_change_pct": -7.15,
+      "price": 125.54,
+      "change_pct": -2.78,
+      "volume_ratio": 1.22,
+      "five_day_change_pct": -6.64,
       "alert": false
     },
     "SOXX": {
-      "price": 477.52,
-      "change_pct": -6.43,
-      "volume_ratio": 0.84,
-      "five_day_change_pct": -7.23,
+      "price": 475.69,
+      "change_pct": -6.79,
+      "volume_ratio": 1.46,
+      "five_day_change_pct": -7.58,
       "alert": false
     },
     "MU": {
-      "price": 858.0,
-      "change_pct": -6.09,
-      "volume_ratio": 0.61,
-      "five_day_change_pct": -7.86,
+      "price": 856.49,
+      "change_pct": -6.26,
+      "volume_ratio": 1.2,
+      "five_day_change_pct": -8.03,
       "alert": false
     }
   },
   "gpu": {
     "current": {
-      "H100 SXM": 3.19,
-      "H200": 5.82,
-      "B200": 9.3,
-      "A100 SXM4": 1.14
+      "H100 SXM": 3.06,
+      "H200": 5.77,
+      "B200": 9.5,
+      "A100 SXM4": 1.06
     },
     "alerts": [],
     "history_points": 1
@@ -77,9 +77,9 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
           "is_new": true,
           "keyword_hits": [
-            "estimated\\s+useful\\s+lives",
-            "server(?:s)?\\s+(?:and\\s+)?network(?:ing)?\\s+assets?",
             "impairment\\s+(?:of\\s+)?(?:long-lived\\s+)?assets?",
+            "server(?:s)?\\s+(?:and\\s+)?network(?:ing)?\\s+assets?",
+            "estimated\\s+useful\\s+lives",
             "depreciation\\s+(?:period|schedule|expense)"
           ]
         },
@@ -111,13 +111,12 @@
       ]
     },
     "alerts": [
-      "SEC META | Nowy 10-Q (2026-10-22) zawiera frazy związane z amortyzacją: estimated\\s+useful\\s+lives, server(?:s)?\\s+(?:and\\s+)?network(?:ing)?\\s+assets?, impairment\\s+(?:of\\s+)?(?:long-lived\\s+)?assets?\nLink: https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+      "SEC META | Nowy 10-Q (2026-10-22) zawiera frazy związane z amortyzacją: impairment\\s+(?:of\\s+)?(?:long-lived\\s+)?assets?, server(?:s)?\\s+(?:and\\s+)?network(?:ing)?\\s+assets?, estimated\\s+useful\\s+lives\nLink: https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
       "SEC MU | Nowy 10-K (2026-10-09) zawiera frazy związane z amortyzacją: depreciation\\s+(?:period|schedule|expense), estimated\\s+useful\\s+lives, write[- ]?down\nLink: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
     ]
   },
   "all_alerts": [
-    "META: ruch -7.4% | Cena: $645.97",
-    "SEC META | Nowy 10-Q (2026-10-22) zawiera frazy związane z amortyzacją: estimated\\s+useful\\s+lives, server(?:s)?\\s+(?:and\\s+)?network(?:ing)?\\s+assets?, impairment\\s+(?:of\\s+)?(?:long-lived\\s+)?assets?\nLink: https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+    "SEC META | Nowy 10-Q (2026-10-22) zawiera frazy związane z amortyzacją: impairment\\s+(?:of\\s+)?(?:long-lived\\s+)?assets?, server(?:s)?\\s+(?:and\\s+)?network(?:ing)?\\s+assets?, estimated\\s+useful\\s+lives\nLink: https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
     "SEC MU | Nowy 10-K (2026-10-09) zawiera frazy związane z amortyzacją: depreciation\\s+(?:period|schedule|expense), estimated\\s+useful\\s+lives, write[- ]?down\nLink: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
   ]
 }
