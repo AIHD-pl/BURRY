@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-10-22T21:20:56.515533",
+  "timestamp": "2026-10-23T04:03:18.918131",
   "stocks": {
     "NVDA": {
       "price": 212.21,
       "change_pct": -4.4,
-      "volume_ratio": 1.28,
+      "volume_ratio": 1.29,
       "five_day_change_pct": -2.31,
       "alert": false
     },
@@ -25,7 +25,7 @@
     "GOOGL": {
       "price": 324.22,
       "change_pct": -3.15,
-      "volume_ratio": 1.2,
+      "volume_ratio": 1.21,
       "five_day_change_pct": -7.16,
       "alert": false
     },
@@ -46,24 +46,24 @@
     "SOXX": {
       "price": 475.69,
       "change_pct": -6.79,
-      "volume_ratio": 1.46,
+      "volume_ratio": 1.47,
       "five_day_change_pct": -7.58,
       "alert": false
     },
     "MU": {
       "price": 856.49,
       "change_pct": -6.26,
-      "volume_ratio": 1.2,
+      "volume_ratio": 1.21,
       "five_day_change_pct": -8.03,
       "alert": false
     }
   },
   "gpu": {
     "current": {
-      "H100 SXM": 3.06,
-      "H200": 5.77,
-      "B200": 9.5,
-      "A100 SXM4": 1.06
+      "H100 SXM": 3.3,
+      "H200": 5.74,
+      "B200": 9.61,
+      "A100 SXM4": 1.08
     },
     "alerts": [],
     "history_points": 1
@@ -79,8 +79,8 @@
           "keyword_hits": [
             "impairment\\s+(?:of\\s+)?(?:long-lived\\s+)?assets?",
             "server(?:s)?\\s+(?:and\\s+)?network(?:ing)?\\s+assets?",
-            "estimated\\s+useful\\s+lives",
-            "depreciation\\s+(?:period|schedule|expense)"
+            "depreciation\\s+(?:period|schedule|expense)",
+            "estimated\\s+useful\\s+lives"
           ]
         },
         {
@@ -104,19 +104,19 @@
           "is_new": true,
           "keyword_hits": [
             "depreciation\\s+(?:period|schedule|expense)",
-            "estimated\\s+useful\\s+lives",
-            "write[- ]?down"
+            "write[- ]?down",
+            "estimated\\s+useful\\s+lives"
           ]
         }
       ]
     },
     "alerts": [
-      "SEC META | Nowy 10-Q (2026-10-22) zawiera frazy związane z amortyzacją: impairment\\s+(?:of\\s+)?(?:long-lived\\s+)?assets?, server(?:s)?\\s+(?:and\\s+)?network(?:ing)?\\s+assets?, estimated\\s+useful\\s+lives\nLink: https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
-      "SEC MU | Nowy 10-K (2026-10-09) zawiera frazy związane z amortyzacją: depreciation\\s+(?:period|schedule|expense), estimated\\s+useful\\s+lives, write[- ]?down\nLink: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
+      "SEC META | Nowy 10-Q (2026-10-22) zawiera frazy związane z amortyzacją: impairment\\s+(?:of\\s+)?(?:long-lived\\s+)?assets?, server(?:s)?\\s+(?:and\\s+)?network(?:ing)?\\s+assets?, depreciation\\s+(?:period|schedule|expense)\nLink: https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+      "SEC MU | Nowy 10-K (2026-10-09) zawiera frazy związane z amortyzacją: depreciation\\s+(?:period|schedule|expense), write[- ]?down, estimated\\s+useful\\s+lives\nLink: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
     ]
   },
   "all_alerts": [
-    "SEC META | Nowy 10-Q (2026-10-22) zawiera frazy związane z amortyzacją: impairment\\s+(?:of\\s+)?(?:long-lived\\s+)?assets?, server(?:s)?\\s+(?:and\\s+)?network(?:ing)?\\s+assets?, estimated\\s+useful\\s+lives\nLink: https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
-    "SEC MU | Nowy 10-K (2026-10-09) zawiera frazy związane z amortyzacją: depreciation\\s+(?:period|schedule|expense), estimated\\s+useful\\s+lives, write[- ]?down\nLink: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
+    "SEC META | Nowy 10-Q (2026-10-22) zawiera frazy związane z amortyzacją: impairment\\s+(?:of\\s+)?(?:long-lived\\s+)?assets?, server(?:s)?\\s+(?:and\\s+)?network(?:ing)?\\s+assets?, depreciation\\s+(?:period|schedule|expense)\nLink: https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+    "SEC MU | Nowy 10-K (2026-10-09) zawiera frazy związane z amortyzacją: depreciation\\s+(?:period|schedule|expense), write[- ]?down, estimated\\s+useful\\s+lives\nLink: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
   ]
 }
