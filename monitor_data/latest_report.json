@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-26T22:27:36.473390",
+  "timestamp": "2026-10-27T04:21:57.849726",
   "stocks": {
     "NVDA": {
       "price": 216.0,
@@ -18,21 +18,21 @@
     "MSFT": {
       "price": 532.6,
       "change_pct": 1.54,
-      "volume_ratio": 0.93,
+      "volume_ratio": 0.96,
       "five_day_change_pct": -0.17,
       "alert": false
     },
     "GOOGL": {
       "price": 316.8,
       "change_pct": -1.06,
-      "volume_ratio": 1.0,
+      "volume_ratio": 1.01,
       "five_day_change_pct": -7.96,
       "alert": false
     },
     "AMZN": {
       "price": 249.09,
       "change_pct": 0.44,
-      "volume_ratio": 0.87,
+      "volume_ratio": 0.88,
       "five_day_change_pct": -5.09,
       "alert": false
     },
@@ -53,17 +53,17 @@
     "MU": {
       "price": 903.7,
       "change_pct": 2.98,
-      "volume_ratio": 0.82,
+      "volume_ratio": 0.83,
       "five_day_change_pct": -0.13,
       "alert": false
     }
   },
   "gpu": {
     "current": {
-      "H100 SXM": 3.55,
-      "H200": 6.09,
-      "B200": 9.66,
-      "A100 SXM4": 1.09
+      "H100 SXM": 3.66,
+      "H200": 6.43,
+      "B200": 9.65,
+      "A100 SXM4": 1.06
     },
     "alerts": [],
     "history_points": 1
@@ -77,10 +77,10 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
           "is_new": true,
           "keyword_hits": [
+            "server(?:s)?\\s+(?:and\\s+)?network(?:ing)?\\s+assets?",
             "depreciation\\s+(?:period|schedule|expense)",
-            "estimated\\s+useful\\s+lives",
             "impairment\\s+(?:of\\s+)?(?:long-lived\\s+)?assets?",
-            "server(?:s)?\\s+(?:and\\s+)?network(?:ing)?\\s+assets?"
+            "estimated\\s+useful\\s+lives"
           ]
         },
         {
@@ -103,20 +103,20 @@
           "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
           "is_new": true,
           "keyword_hits": [
+            "write[- ]?down",
             "depreciation\\s+(?:period|schedule|expense)",
-            "estimated\\s+useful\\s+lives",
-            "write[- ]?down"
+            "estimated\\s+useful\\s+lives"
           ]
         }
       ]
     },
     "alerts": [
-      "SEC META | Nowy 10-Q (2026-10-22) zawiera frazy związane z amortyzacją: depreciation\\s+(?:period|schedule|expense), estimated\\s+useful\\s+lives, impairment\\s+(?:of\\s+)?(?:long-lived\\s+)?assets?\nLink: https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
-      "SEC MU | Nowy 10-K (2026-10-09) zawiera frazy związane z amortyzacją: depreciation\\s+(?:period|schedule|expense), estimated\\s+useful\\s+lives, write[- ]?down\nLink: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
+      "SEC META | Nowy 10-Q (2026-10-22) zawiera frazy związane z amortyzacją: server(?:s)?\\s+(?:and\\s+)?network(?:ing)?\\s+assets?, depreciation\\s+(?:period|schedule|expense), impairment\\s+(?:of\\s+)?(?:long-lived\\s+)?assets?\nLink: https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+      "SEC MU | Nowy 10-K (2026-10-09) zawiera frazy związane z amortyzacją: write[- ]?down, depreciation\\s+(?:period|schedule|expense), estimated\\s+useful\\s+lives\nLink: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
     ]
   },
   "all_alerts": [
-    "SEC META | Nowy 10-Q (2026-10-22) zawiera frazy związane z amortyzacją: depreciation\\s+(?:period|schedule|expense), estimated\\s+useful\\s+lives, impairment\\s+(?:of\\s+)?(?:long-lived\\s+)?assets?\nLink: https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
-    "SEC MU | Nowy 10-K (2026-10-09) zawiera frazy związane z amortyzacją: depreciation\\s+(?:period|schedule|expense), estimated\\s+useful\\s+lives, write[- ]?down\nLink: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
+    "SEC META | Nowy 10-Q (2026-10-22) zawiera frazy związane z amortyzacją: server(?:s)?\\s+(?:and\\s+)?network(?:ing)?\\s+assets?, depreciation\\s+(?:period|schedule|expense), impairment\\s+(?:of\\s+)?(?:long-lived\\s+)?assets?\nLink: https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+    "SEC MU | Nowy 10-K (2026-10-09) zawiera frazy związane z amortyzacją: write[- ]?down, depreciation\\s+(?:period|schedule|expense), estimated\\s+useful\\s+lives\nLink: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
   ]
 }
