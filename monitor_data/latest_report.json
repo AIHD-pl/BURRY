@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-28T04:52:35.752580",
+  "timestamp": "2026-10-28T12:25:42.407376",
   "stocks": {
     "NVDA": {
       "price": 217.94,
@@ -60,10 +60,10 @@
   },
   "gpu": {
     "current": {
-      "H100 SXM": 2.79,
-      "H200": 6.39,
-      "B200": 9.78,
-      "A100 SXM4": 1.09
+      "H100 SXM": 3.0,
+      "H200": 6.66,
+      "B200": 9.75,
+      "A100 SXM4": 1.11
     },
     "alerts": [],
     "history_points": 1
@@ -77,10 +77,10 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
           "is_new": true,
           "keyword_hits": [
-            "server(?:s)?\\s+(?:and\\s+)?network(?:ing)?\\s+assets?",
+            "impairment\\s+(?:of\\s+)?(?:long-lived\\s+)?assets?",
             "estimated\\s+useful\\s+lives",
-            "depreciation\\s+(?:period|schedule|expense)",
-            "impairment\\s+(?:of\\s+)?(?:long-lived\\s+)?assets?"
+            "server(?:s)?\\s+(?:and\\s+)?network(?:ing)?\\s+assets?",
+            "depreciation\\s+(?:period|schedule|expense)"
           ]
         },
         {
@@ -111,13 +111,13 @@
       ]
     },
     "alerts": [
-      "SEC META | Nowy 10-Q (2026-10-22) zawiera frazy związane z amortyzacją: server(?:s)?\\s+(?:and\\s+)?network(?:ing)?\\s+assets?, estimated\\s+useful\\s+lives, depreciation\\s+(?:period|schedule|expense)\nLink: https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+      "SEC META | Nowy 10-Q (2026-10-22) zawiera frazy związane z amortyzacją: impairment\\s+(?:of\\s+)?(?:long-lived\\s+)?assets?, estimated\\s+useful\\s+lives, server(?:s)?\\s+(?:and\\s+)?network(?:ing)?\\s+assets?\nLink: https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
       "SEC MU | Nowy 10-K (2026-10-09) zawiera frazy związane z amortyzacją: write[- ]?down, estimated\\s+useful\\s+lives, depreciation\\s+(?:period|schedule|expense)\nLink: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
     ]
   },
   "all_alerts": [
     "META: wolumen 2.3x | Cena: $620.19",
-    "SEC META | Nowy 10-Q (2026-10-22) zawiera frazy związane z amortyzacją: server(?:s)?\\s+(?:and\\s+)?network(?:ing)?\\s+assets?, estimated\\s+useful\\s+lives, depreciation\\s+(?:period|schedule|expense)\nLink: https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+    "SEC META | Nowy 10-Q (2026-10-22) zawiera frazy związane z amortyzacją: impairment\\s+(?:of\\s+)?(?:long-lived\\s+)?assets?, estimated\\s+useful\\s+lives, server(?:s)?\\s+(?:and\\s+)?network(?:ing)?\\s+assets?\nLink: https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
     "SEC MU | Nowy 10-K (2026-10-09) zawiera frazy związane z amortyzacją: write[- ]?down, estimated\\s+useful\\s+lives, depreciation\\s+(?:period|schedule|expense)\nLink: https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm"
   ]
 }
