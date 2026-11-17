@@ -1,69 +1,69 @@
 {
-  "timestamp": "2026-11-16T15:16:23.073169",
+  "timestamp": "2026-11-17T01:45:07.091643",
   "stocks": {
     "NVDA": {
-      "price": 159.67,
-      "change_pct": -1.95,
-      "volume_ratio": 0.28,
-      "five_day_change_pct": -10.63,
+      "price": NaN,
+      "change_pct": NaN,
+      "volume_ratio": 0.97,
+      "five_day_change_pct": NaN,
       "alert": false
     },
     "META": {
-      "price": 623.42,
-      "change_pct": -2.85,
-      "volume_ratio": 0.12,
-      "five_day_change_pct": -2.8,
+      "price": NaN,
+      "change_pct": NaN,
+      "volume_ratio": 0.63,
+      "five_day_change_pct": NaN,
       "alert": false
     },
     "MSFT": {
-      "price": 517.76,
-      "change_pct": -1.17,
-      "volume_ratio": 0.1,
-      "five_day_change_pct": -5.03,
+      "price": NaN,
+      "change_pct": NaN,
+      "volume_ratio": 1.0,
+      "five_day_change_pct": NaN,
       "alert": false
     },
     "GOOGL": {
-      "price": 286.73,
-      "change_pct": -3.06,
-      "volume_ratio": 0.17,
-      "five_day_change_pct": -0.49,
+      "price": NaN,
+      "change_pct": NaN,
+      "volume_ratio": 0.92,
+      "five_day_change_pct": NaN,
       "alert": false
     },
     "AMZN": {
-      "price": 259.39,
-      "change_pct": -2.72,
-      "volume_ratio": 0.2,
-      "five_day_change_pct": -2.82,
+      "price": NaN,
+      "change_pct": NaN,
+      "volume_ratio": 0.95,
+      "five_day_change_pct": NaN,
       "alert": false
     },
     "ORCL": {
-      "price": 119.37,
-      "change_pct": -4.77,
-      "volume_ratio": 0.09,
-      "five_day_change_pct": -0.35,
+      "price": NaN,
+      "change_pct": NaN,
+      "volume_ratio": 0.41,
+      "five_day_change_pct": NaN,
       "alert": false
     },
     "SOXX": {
-      "price": 141.64,
-      "change_pct": -5.13,
-      "volume_ratio": 0.27,
-      "five_day_change_pct": -3.49,
+      "price": NaN,
+      "change_pct": NaN,
+      "volume_ratio": 0.72,
+      "five_day_change_pct": NaN,
       "alert": false
     },
     "MU": {
-      "price": 720.0,
-      "change_pct": -7.49,
-      "volume_ratio": 0.19,
-      "five_day_change_pct": -1.79,
-      "alert": true
+      "price": NaN,
+      "change_pct": NaN,
+      "volume_ratio": 0.72,
+      "five_day_change_pct": NaN,
+      "alert": false
     }
   },
   "gpu": {
     "current": {
-      "H100 SXM": 3.05,
-      "H200": 6.6,
-      "B200": 9.69,
-      "A100 SXM4": 1.0
+      "H100 SXM": 3.1,
+      "H200": 6.41,
+      "B200": 9.7,
+      "A100 SXM4": 0.98
     },
     "alerts": [],
     "history_points": 1
@@ -121,8 +121,8 @@
           "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm",
           "is_new": true,
           "keyword_hits": [
-            "write[- ]?off",
             "impairment\\s+(?:of\\s+)?(?:long-lived\\s+)?assets?",
+            "write[- ]?off",
             "depreciation\\s+(?:period|schedule|expense)"
           ]
         },
@@ -148,9 +148,9 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
           "is_new": true,
           "keyword_hits": [
-            "depreciation\\s+(?:period|schedule|expense)",
+            "estimated\\s+useful\\s+lives",
             "useful\\s+life",
-            "estimated\\s+useful\\s+lives"
+            "depreciation\\s+(?:period|schedule|expense)"
           ]
         },
         {
@@ -217,15 +217,14 @@
       ]
     },
     "alerts": [
-      "SEC MSFT | Nowy 10-Q (2026-10-28) zawiera frazy związane z amortyzacją: write[- ]?off, impairment\\s+(?:of\\s+)?(?:long-lived\\s+)?assets?, depreciation\\s+(?:period|schedule|expense)\nLink: https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm",
-      "SEC GOOGL | Nowy 10-Q (2026-10-29) zawiera frazy związane z amortyzacją: depreciation\\s+(?:period|schedule|expense), useful\\s+life, estimated\\s+useful\\s+lives\nLink: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+      "SEC MSFT | Nowy 10-Q (2026-10-28) zawiera frazy związane z amortyzacją: impairment\\s+(?:of\\s+)?(?:long-lived\\s+)?assets?, write[- ]?off, depreciation\\s+(?:period|schedule|expense)\nLink: https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm",
+      "SEC GOOGL | Nowy 10-Q (2026-10-29) zawiera frazy związane z amortyzacją: estimated\\s+useful\\s+lives, useful\\s+life, depreciation\\s+(?:period|schedule|expense)\nLink: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
       "SEC AMZN | Nowy 10-Q (2026-10-30) zawiera frazy związane z amortyzacją: write[- ]?off, write[- ]?down, accelerated\\s+depreciation\nLink: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm"
     ]
   },
   "all_alerts": [
-    "MU: ruch -7.5% | Cena: $720.0",
-    "SEC MSFT | Nowy 10-Q (2026-10-28) zawiera frazy związane z amortyzacją: write[- ]?off, impairment\\s+(?:of\\s+)?(?:long-lived\\s+)?assets?, depreciation\\s+(?:period|schedule|expense)\nLink: https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm",
-    "SEC GOOGL | Nowy 10-Q (2026-10-29) zawiera frazy związane z amortyzacją: depreciation\\s+(?:period|schedule|expense), useful\\s+life, estimated\\s+useful\\s+lives\nLink: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+    "SEC MSFT | Nowy 10-Q (2026-10-28) zawiera frazy związane z amortyzacją: impairment\\s+(?:of\\s+)?(?:long-lived\\s+)?assets?, write[- ]?off, depreciation\\s+(?:period|schedule|expense)\nLink: https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm",
+    "SEC GOOGL | Nowy 10-Q (2026-10-29) zawiera frazy związane z amortyzacją: estimated\\s+useful\\s+lives, useful\\s+life, depreciation\\s+(?:period|schedule|expense)\nLink: https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
     "SEC AMZN | Nowy 10-Q (2026-10-30) zawiera frazy związane z amortyzacją: write[- ]?off, write[- ]?down, accelerated\\s+depreciation\nLink: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm"
   ]
 }
