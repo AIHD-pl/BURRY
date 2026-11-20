@@ -1,69 +1,69 @@
 {
-  "timestamp": "2026-11-19T15:28:55.329074",
+  "timestamp": "2026-11-20T00:26:22.038612",
   "stocks": {
     "NVDA": {
-      "price": 153.66,
-      "change_pct": 1.79,
-      "volume_ratio": 0.22,
-      "five_day_change_pct": -7.54,
+      "price": 145.98,
+      "change_pct": -3.3,
+      "volume_ratio": 0.79,
+      "five_day_change_pct": -12.16,
       "alert": false
     },
     "META": {
-      "price": 617.91,
-      "change_pct": 0.25,
-      "volume_ratio": 0.21,
-      "five_day_change_pct": -0.91,
+      "price": 596.22,
+      "change_pct": -3.27,
+      "volume_ratio": 1.11,
+      "five_day_change_pct": -4.39,
       "alert": false
     },
     "MSFT": {
-      "price": 517.75,
-      "change_pct": 1.86,
-      "volume_ratio": 0.26,
-      "five_day_change_pct": -1.0,
+      "price": 498.3,
+      "change_pct": -1.97,
+      "volume_ratio": 1.1,
+      "five_day_change_pct": -4.72,
       "alert": false
     },
     "GOOGL": {
-      "price": 290.16,
-      "change_pct": 2.73,
-      "volume_ratio": 0.32,
-      "five_day_change_pct": -2.86,
+      "price": 272.66,
+      "change_pct": -3.46,
+      "volume_ratio": 1.52,
+      "five_day_change_pct": -8.72,
       "alert": false
     },
     "AMZN": {
-      "price": 268.6,
-      "change_pct": 0.32,
-      "volume_ratio": 0.28,
-      "five_day_change_pct": 0.44,
+      "price": 257.37,
+      "change_pct": -3.87,
+      "volume_ratio": 1.29,
+      "five_day_change_pct": -3.77,
       "alert": false
     },
     "ORCL": {
-      "price": 114.64,
-      "change_pct": 0.66,
-      "volume_ratio": 0.22,
-      "five_day_change_pct": -9.81,
+      "price": 110.57,
+      "change_pct": -2.92,
+      "volume_ratio": 1.0,
+      "five_day_change_pct": -13.01,
       "alert": false
     },
     "SOXX": {
-      "price": 144.44,
-      "change_pct": 1.83,
-      "volume_ratio": 0.27,
-      "five_day_change_pct": -6.81,
+      "price": 137.95,
+      "change_pct": -2.75,
+      "volume_ratio": 0.92,
+      "five_day_change_pct": -10.99,
       "alert": false
     },
     "MU": {
-      "price": 731.73,
-      "change_pct": 3.75,
-      "volume_ratio": 0.29,
-      "five_day_change_pct": -8.36,
+      "price": 690.44,
+      "change_pct": -2.1,
+      "volume_ratio": 1.1,
+      "five_day_change_pct": -13.53,
       "alert": false
     }
   },
   "gpu": {
     "current": {
-      "H100 SXM": 2.59,
-      "H200": 6.17,
-      "B200": 9.14,
-      "A100 SXM4": 1.02
+      "H100 SXM": 2.65,
+      "H200": 6.15,
+      "B200": 9.22,
+      "A100 SXM4": 1.0
     },
     "alerts": [],
     "history_points": 1
@@ -111,19 +111,7 @@
           "keyword_hits": []
         }
       ],
-      "AMZN": [
-        {
-          "form": "10-Q",
-          "date": "2026-10-30",
-          "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm",
-          "is_new": true,
-          "keyword_hits": [
-            "accelerated\\s+depreciation",
-            "write[- ]?off",
-            "write[- ]?down"
-          ]
-        }
-      ],
+      "AMZN": [],
       "ORCL": [
         {
           "form": "8-K",
@@ -159,11 +147,7 @@
         }
       ]
     },
-    "alerts": [
-      "SEC AMZN | Nowy 10-Q (2026-10-30) zawiera frazy związane z amortyzacją: accelerated\\s+depreciation, write[- ]?off, write[- ]?down\nLink: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm"
-    ]
+    "alerts": []
   },
-  "all_alerts": [
-    "SEC AMZN | Nowy 10-Q (2026-10-30) zawiera frazy związane z amortyzacją: accelerated\\s+depreciation, write[- ]?off, write[- ]?down\nLink: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm"
-  ]
+  "all_alerts": []
 }
