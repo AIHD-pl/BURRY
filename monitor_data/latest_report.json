@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-23T23:37:22.882865",
+  "timestamp": "2026-11-24T09:09:47.287020",
   "stocks": {
     "NVDA": {
       "price": 165.05,
@@ -18,7 +18,7 @@
     "MSFT": {
       "price": 492.5,
       "change_pct": 1.65,
-      "volume_ratio": 1.05,
+      "volume_ratio": 1.06,
       "five_day_change_pct": -4.74,
       "alert": false
     },
@@ -60,9 +60,9 @@
   },
   "gpu": {
     "current": {
-      "H100 SXM": 2.89,
-      "H200": 6.86,
-      "B200": 9.06,
+      "H100 SXM": 2.95,
+      "H200": 6.36,
+      "B200": 9.08,
       "A100 SXM4": 0.99
     },
     "alerts": [],
