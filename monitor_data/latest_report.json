@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-11-24T22:07:52.812418",
+  "timestamp": "2026-11-25T07:45:20.557196",
   "stocks": {
     "NVDA": {
       "price": 155.38,
       "change_pct": -5.86,
-      "volume_ratio": 0.8,
+      "volume_ratio": 0.81,
       "five_day_change_pct": -0.05,
       "alert": false
     },
@@ -18,14 +18,14 @@
     "MSFT": {
       "price": 496.13,
       "change_pct": 0.74,
-      "volume_ratio": 0.77,
+      "volume_ratio": 0.8,
       "five_day_change_pct": -1.81,
       "alert": false
     },
     "GOOGL": {
       "price": 279.05,
       "change_pct": -1.08,
-      "volume_ratio": 0.89,
+      "volume_ratio": 0.9,
       "five_day_change_pct": -0.41,
       "alert": false
     },
@@ -53,17 +53,17 @@
     "MU": {
       "price": 629.79,
       "change_pct": -11.01,
-      "volume_ratio": 1.07,
+      "volume_ratio": 1.08,
       "five_day_change_pct": -11.6,
       "alert": true
     }
   },
   "gpu": {
     "current": {
-      "H100 SXM": 3.3,
-      "H200": 6.66,
-      "B200": 9.08,
-      "A100 SXM4": 1.0
+      "H100 SXM": 3.09,
+      "H200": 6.72,
+      "B200": 9.76,
+      "A100 SXM4": 1.01
     },
     "alerts": [],
     "history_points": 1
@@ -100,13 +100,6 @@
           "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526448357/d177209d8k.htm",
           "is_new": true,
           "keyword_hits": []
-        },
-        {
-          "form": "8-K",
-          "date": "2026-11-04",
-          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526447173/d178557d8k.htm",
-          "is_new": true,
-          "keyword_hits": []
         }
       ],
       "GOOGL": [
@@ -131,13 +124,6 @@
           "form": "8-K",
           "date": "2026-11-20",
           "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526470351/orcl-20261118.htm",
-          "is_new": true,
-          "keyword_hits": []
-        },
-        {
-          "form": "8-K",
-          "date": "2026-11-04",
-          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526447507/d131790d8k.htm",
           "is_new": true,
           "keyword_hits": []
         }
