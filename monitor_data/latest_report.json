@@ -1,69 +1,69 @@
 {
-  "timestamp": "2026-11-25T21:23:58.522405",
+  "timestamp": "2026-11-26T07:36:49.947992",
   "stocks": {
     "NVDA": {
       "price": 149.3,
       "change_pct": -3.91,
-      "volume_ratio": 0.74,
+      "volume_ratio": 0.76,
       "five_day_change_pct": -1.1,
       "alert": false
     },
     "META": {
       "price": 609.89,
       "change_pct": 3.4,
-      "volume_ratio": 1.24,
+      "volume_ratio": 1.26,
       "five_day_change_pct": -1.05,
       "alert": false
     },
     "MSFT": {
       "price": 489.93,
       "change_pct": -1.25,
-      "volume_ratio": 0.91,
+      "volume_ratio": 0.94,
       "five_day_change_pct": -3.43,
       "alert": false
     },
     "GOOGL": {
       "price": 273.1,
       "change_pct": -2.13,
-      "volume_ratio": 1.05,
+      "volume_ratio": 1.07,
       "five_day_change_pct": -3.31,
       "alert": false
     },
     "AMZN": {
       "price": 244.43,
       "change_pct": -3.12,
-      "volume_ratio": 1.35,
+      "volume_ratio": 1.37,
       "five_day_change_pct": -8.71,
       "alert": false
     },
     "ORCL": {
       "price": 103.88,
       "change_pct": -5.13,
-      "volume_ratio": 1.34,
+      "volume_ratio": 1.41,
       "five_day_change_pct": -8.79,
       "alert": false
     },
     "SOXX": {
       "price": 127.98,
       "change_pct": -0.5,
-      "volume_ratio": 0.92,
+      "volume_ratio": 0.93,
       "five_day_change_pct": -9.78,
       "alert": false
     },
     "MU": {
       "price": 601.25,
       "change_pct": -4.53,
-      "volume_ratio": 1.43,
+      "volume_ratio": 1.44,
       "five_day_change_pct": -14.75,
       "alert": false
     }
   },
   "gpu": {
     "current": {
-      "H100 SXM": 3.31,
-      "H200": 6.6,
-      "B200": 9.79,
-      "A100 SXM4": 1.03
+      "H100 SXM": 3.21,
+      "H200": 6.48,
+      "B200": 9.74,
+      "A100 SXM4": 1.04
     },
     "alerts": [],
     "history_points": 1
@@ -84,36 +84,14 @@
           "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526458525/d177728d8k.htm",
           "is_new": true,
           "keyword_hits": []
-        },
-        {
-          "form": "8-K",
-          "date": "2026-11-05",
-          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526450074/d166273d8k.htm",
-          "is_new": true,
-          "keyword_hits": []
         }
       ],
-      "MSFT": [
-        {
-          "form": "8-K",
-          "date": "2026-11-05",
-          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526448357/d177209d8k.htm",
-          "is_new": true,
-          "keyword_hits": []
-        }
-      ],
+      "MSFT": [],
       "GOOGL": [
         {
           "form": "8-K",
           "date": "2026-11-24",
           "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526475973/d91615d8k.htm",
-          "is_new": true,
-          "keyword_hits": []
-        },
-        {
-          "form": "8-K",
-          "date": "2026-11-05",
-          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526449835/d174184d8k.htm",
           "is_new": true,
           "keyword_hits": []
         }
@@ -151,15 +129,7 @@
           "keyword_hits": []
         }
       ],
-      "MU": [
-        {
-          "form": "8-K",
-          "date": "2026-11-05",
-          "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465926123389/tm2629062d1_8k.htm",
-          "is_new": true,
-          "keyword_hits": []
-        }
-      ]
+      "MU": []
     },
     "alerts": []
   },
